@@ -16,7 +16,7 @@ import Testimonial from "../../../components/testimonial/Testimonial";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Home Default || Moonex Portfolio and Agency NextJS Template",
+  title: "Home Default hydroptima|| Moonex Portfolio and Agency NextJS Template",
 };
 
 const HomeDefault = () => {
