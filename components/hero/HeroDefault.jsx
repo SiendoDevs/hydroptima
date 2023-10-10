@@ -4,10 +4,10 @@ import React from "react";
 import Image from "next/image";
 const heroContent = {
   title: "Hydroptima",
-  subTitle1: " Crafting Digital",
-  subTitle2: "Agency",
-  subTitleDescription1: "Good design mean that",
-  subTitleDescription2: "good business",
+  subTitle1: "La solución al sarro",
+  subTitle2: "en tu hogar",
+  subTitleDescription1: "Descalcificador de agua",
+  subTitleDescription2: "para toda la casa",
   detailsDescription: `We help our client suceed by creating identities, digital
     experiences, and printmaterials that communicate clearly,
     achieve marketing goals & look fantastic Lorem uispum dolor
@@ -20,7 +20,7 @@ const HeroDefault = () => {
       <div className="col-xl-9">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
-          <h1 className="fz-180 fz-130--lg fz-90--md">{heroContent.title}</h1>
+          <h1 className="fz-120 fz-110--lg fz-90--md">{heroContent.title}</h1>
         </div>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
@@ -35,7 +35,6 @@ const HeroDefault = () => {
                 fz-40
                 fw-bold
                 lh-1p3
-                text-uppercase
                 has-white-color
               "
           >
