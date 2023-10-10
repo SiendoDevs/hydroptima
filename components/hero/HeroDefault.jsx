@@ -20,7 +20,7 @@ const HeroDefault = () => {
       <div className="col-xl-9">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
-          <h1 className="fz-120 fz-110--lg fz-90--md">{heroContent.title}</h1>
+          <h1 className="fz-120 fz-110--lg fz-60--md">{heroContent.title}</h1>
         </div>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
