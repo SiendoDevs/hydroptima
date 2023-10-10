@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 const heroContent = {
-  title: "Moonex",
+  title: "Hydroptima",
   subTitle1: " Crafting Digital",
   subTitle2: "Agency",
   subTitleDescription1: "Good design mean that",
@@ -20,7 +20,7 @@ const HeroDefault = () => {
       <div className="col-xl-9">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
-          <h1 className="fz-230 fz-130--lg fz-90--md">{heroContent.title}</h1>
+          <h1 className="fz-180 fz-130--lg fz-90--md">{heroContent.title}</h1>
         </div>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
@@ -144,7 +144,7 @@ const HeroDefault = () => {
               height={1200}
               style={{ width: "100%", height: "100%" }}
               className="spin"
-              src="/assets/img/root/home-default/circle-text.png"
+              src="/assets/img/imgs-de-la-marca/circular-iso-2.png"
               alt="logo"
               loading="lazy"
             />
@@ -152,7 +152,7 @@ const HeroDefault = () => {
               width={1200}
               height={1200}
               style={{ width: "100%", height: "100%" }}
-              src="/assets/img/root/home-default/circle-logo.png"
+              src="/assets/img/imgs-de-la-marca/circular-iso.png"
               alt="logo"
               loading="lazy"
             />
