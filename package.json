@@ -36,5 +36,8 @@
     "sass": "^1.62.1",
     "slick-carousel": "^1.8.1",
     "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
   }
 }

@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'BT-BeauSans-Bold';
-    font-weight: 300;
+    font-family: "BT Beau Sans";
+    src: url('BT-BeauSans-Bold-BF64d45953acd04.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
-    src: url('BT-BeauSans-Bold.ttf') format('ttf');
-   }
+}
