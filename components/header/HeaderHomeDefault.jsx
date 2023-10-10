@@ -48,7 +48,7 @@ const HeaderHomeDefault = () => {
                   height={146}
                   style={{ objectFit: "contain" }}
                   className="black"
-                  src="/assets/img/imgs-de-la-marca/logo-hydroptima.jpg.png"
+                  src="/assets/img/imgs-de-la-marca/logo-hydroptima-white.svg"
                   alt="logo"
                   loading="lazy"
                 />
@@ -57,7 +57,7 @@ const HeaderHomeDefault = () => {
                   height={146}
                   style={{ objectFit: "contain" }}
                   className="white"
-                  src="/assets/img/imgs-de-la-marca/logo-hydroptima.jpg.png"
+                  src="/assets/img/imgs-de-la-marca/logo-hydroptima-white.svg"
                   alt="logo"
                   loading="lazy"
                 />
