@@ -96,7 +96,7 @@ const HeroDefault = () => {
                     "--ptf-md": "2.1875rem",
                   }}
                 ></div>
-                <p className="fz-24 has-black-color">
+                <p className="fz-24 has-white-color">
                   {heroContent.detailsDescription}
                 </p>
               </div>
