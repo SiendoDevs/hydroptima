@@ -68,8 +68,8 @@ const HomeDefault = () => {
                       data-aos-delay="0"
                     >
                       <h2 className="h2 large-heading">
-                        Our <br />
-                        Services
+                        Nuestra <br />
+                        Solucion
                       </h2>
                       {/* <!--Spacer--> */}
                       <div
@@ -77,9 +77,7 @@ const HomeDefault = () => {
                         style={{ "--ptf-xxl": "2.5rem" }}
                       ></div>
                       <p className="fz-18">
-                        We help ambitious businesses like yours generate more
-                        profits by building awareness, driving web traffic,
-                        connecting with customers and growing overall sales.
+                        Nuestro innovador sistema utiliza un proceso eficiente y sin sal para combatir el agua dura.
                       </p>
                     </div>
                     {/* <!--Spacer--> */}
@@ -117,7 +115,7 @@ const HomeDefault = () => {
                       data-aos-delay="0"
                     >
                       <h2 className="h2 large-heading d-inline-flex">
-                        Latest Works
+                        Agua Dura
                       </h2>
                     </div>
                   </div>
@@ -140,7 +138,7 @@ const HomeDefault = () => {
                       href="/works-grid"
                       style={{ marginLeft: "5.625rem" }}
                     >
-                      All Projects <i className="lnil lnil-chevron-right"></i>
+                      Detección <i className="lnil lnil-chevron-right"></i>
                     </Link>
                   </div>
                 </div>
@@ -172,9 +170,8 @@ const HomeDefault = () => {
             <section
               className="has-accent-1-background"
               style={{
-                backgroundImage: `url(${
-                  "" + "/assets/img/root/service-bubble.png"
-                })`,
+                backgroundImage: `url(${"" + "/assets/img/root/service-bubble.png"
+                  })`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "100% calc(100% + 120px)",
               }}
@@ -191,7 +188,7 @@ const HomeDefault = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h1 large-heading">Our Approach</h2>
+                  <h2 className="h1 large-heading">Beneficios Hydroptima</h2>
                 </div>
                 {/* <!--Spacer--> */}
                 <div
@@ -225,7 +222,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h2 large-heading">Moonex’s Partners</h2>
+                      <h2 className="h2 large-heading">Polarización de Iones</h2>
                     </div>
                     {/* <!--Spacer--> */}
                     <div

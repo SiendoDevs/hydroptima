@@ -8,10 +8,7 @@ const heroContent = {
   subTitle2: "en tu hogar",
   subTitleDescription1: "Descalcificador de agua",
   subTitleDescription2: "para toda la casa",
-  detailsDescription: `We help our client suceed by creating identities, digital
-    experiences, and printmaterials that communicate clearly,
-    achieve marketing goals & look fantastic Lorem uispum dolor
-    sit amert tunoer poea opefse ceefo goipully.`,
+  detailsDescription: `Nuestro revolucionario sistema Anti Sarro es la solución definitiva para prevenir la acumulación de minerales de calcio y magnesio, manteniendo tus instalaciones libres de escamas y eliminando contaminantes en el agua mediante la avanzada tecnología IPSE.`,
 };
 
 const HeroDefault = () => {
@@ -120,7 +117,7 @@ const HeroDefault = () => {
                   href="about-us.html"
                   target="_self"
                 >
-                  Learn More
+                  Más Info.
                 </a>
               </div>
             </div>

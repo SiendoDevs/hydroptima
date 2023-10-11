@@ -59,22 +59,22 @@ const Footer = () => {
             className="ptf-footer-heading --ptf-accent-1"
             style={{ maxWidth: "37.5rem" }}
           >
-            Boost Your Business Up To High Level
+            Protege tus Cañerías y Electrodomésticos
           </div>
 
           <div className="ptf-footer-heading --ptf-accent-1">
-            Start by
+            ¡Contactate con{" "}
             <Link
               className="has-accent-1 text-decoration-underline"
               href="/contact"
             >
-              Saying Hi!
+              nosotros!
             </Link>
           </div>
 
-          <p className="fz-24 --ptf-accent-1">90 Fairground Rd, FL 3290, United States</p>
-          <a className="fz-40 --ptf-accent-1 has-accent-1" href="mailto:hello@moonex.co">
-            hello@moonex.co
+          <p className="fz-24 --ptf-accent-1">Corona Golf Club, Pilar 1629, Buenos Aires</p>
+          <a className="fz-40 --ptf-accent-1 has-accent-1" href="mailto:info@tuhydroptima.com">
+            info@tuhydroptima.com
           </a>
         </div>
       </div>
