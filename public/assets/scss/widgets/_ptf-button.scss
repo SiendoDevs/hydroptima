@@ -61,14 +61,14 @@
 	}
 
 	&.ptf-btn--inversed {
-		color: var(--ptf-color-white);
-
-		background-color: var(--ptf-accent-2);
+		color: var(--ptf-accent-5);
+		border: 2px solid var(--ptf-color-white);
+		// background-color: var(--ptf-accent-2);
 
 		&:hover {
-			color: var(--ptf-color-white);
-
-			background-color: var(--ptf-color-black);
+			color: var(--ptf-accent-1);
+			border: 2px solid var(--ptf-accent-5);
+			background-color: var(--ptf-accent-5);
 		}
 
 	}

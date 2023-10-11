@@ -202,9 +202,9 @@ const MobileMenu = () => {
 
       <div className="ptf-offcanvas-menu__footer">
         <p className="ptf-offcanvas-menu__copyright">
-          @{new Date().getFullYear()} <span>Moonex</span>. All Rights Reserved.{" "}
+          @{new Date().getFullYear()} <span><a href="https://tuhydroptima.com/">Hydroptima</a></span>. Todos los derechos reservados.{" "}
           <br />
-          Development by{" "}
+          {/* Development by{" "}
           <span>
             <a
               href="https://themeforest.net/user/ib-themes"
@@ -214,7 +214,7 @@ const MobileMenu = () => {
               ib-themes
             </a>
           </span>
-          .
+          . */}
         </p>
         <Social />
       </div>

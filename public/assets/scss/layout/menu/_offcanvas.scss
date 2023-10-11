@@ -122,12 +122,12 @@
 }
 
 .pro-sidebar {
-  color: #000;
+  color: var(--ptf-accent-1);
   width: 100%;
   .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item {
     padding-left: 0 !important;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 18px;;
   }
 }
 .pro-sidebar > .pro-sidebar-inner {
@@ -141,7 +141,7 @@
   padding-left: 0 !important;
   transition: all var(--ptf-transition-duration) var(--ptf-transition-easing);
   &:hover {
-    color: var(--ptf-accent-1);
+    color: var(--ptf-accent-5);
   }
 }
 .pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item {
