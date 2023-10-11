@@ -26,7 +26,7 @@ const CopyRight = () => {
           <span>
             <a
               class="has-accent-1"
-              href="https://themeforest.net/user/ib-themes"
+              href="https://tuhydroptima.com/"
               rel="noopener noreferrer"
               target="_blank"
               >
