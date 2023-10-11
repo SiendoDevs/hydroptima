@@ -21,7 +21,7 @@ const CopyRight = () => {
         </a>
       </div>
       <div className="col-12 col-md text-md-center text-lg-center">
-        <p className="ptf-footer-copyright has-black-color">
+        <p className="ptf-footer-copyright --ptf-accent-1">
           ©{new Date().getFullYear()}{" "}
           <span>
             <a
@@ -38,7 +38,7 @@ const CopyRight = () => {
         </p>
       </div>
       <div className="col-12 col-lg text-md-center text-lg-end">
-        <div className="ptf-footer-socials has-black-color ">
+        <div className="ptf-footer-socials --ptf-accent-1 ">
           <SocialTwo />
         </div>
       </div>

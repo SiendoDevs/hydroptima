@@ -3,32 +3,32 @@ export const portfolioContent = [
     {
       id:1 ,
       img: "/assets/img/portfolio/work-1.png",
-      categorie: "UI/UX",
-      title: "Taskly Dashboard",
+      categorie: "Extraño",
+      title: "sabor u olor en el agua",
     },
     {
       id:2 ,
       img: "/assets/img/portfolio/work-2.png",
-      categorie: "Product",
-      title: "Film & Art Festival",
+      categorie: "Manchas",
+      title: "en cristalería y platos",
     },
     {
       id:3 ,
       img: "/assets/img/portfolio/work-3.png",
-      categorie: "Branding, Packaging",
-      title: "Dark Wishky Wine",
+      categorie: "Perdida",
+      title: "de presión de agua",
     },
     {
       id:4 ,
       img: "/assets/img/portfolio/work-4.png",
-      categorie: "Illustration",
-      title: "Swiss Style Poster",
+      categorie: "Manchas",
+      title: "en superficies sanitarias",
     },
     {
       id: 5,
       img: "/assets/img/portfolio/work-5.png",
-      categorie: "UI/UX",
-      title: "Liarch Architecture Firm",
+      categorie: "Problemas de piel",
+      title: "causada por minerales",
     },
   ];
 
