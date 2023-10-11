@@ -64,7 +64,7 @@
     padding-top: px2rem(65px);
     padding-bottom: px2rem(45px);
 
-    border-top: 2px solid var(--ptf-color-black);
+    border-top: 2px solid var(--ptf-accent-1);
 
     @include mq("medium") {
       padding-bottom: px2rem(30px);

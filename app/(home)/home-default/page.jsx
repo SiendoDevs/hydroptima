@@ -67,7 +67,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">
+                      <h2 className="h2 large-heading">
                         Our <br />
                         Services
                       </h2>
@@ -116,7 +116,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading d-inline-flex">
+                      <h2 className="h2 large-heading d-inline-flex">
                         Latest Works
                       </h2>
                     </div>
@@ -225,7 +225,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">Moonex’s Partners</h2>
+                      <h2 className="h2 large-heading">Moonex’s Partners</h2>
                     </div>
                     {/* <!--Spacer--> */}
                     <div
@@ -331,7 +331,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">
+                      <h2 className="h2 large-heading">
                         Our
                         <br />
                         Awards

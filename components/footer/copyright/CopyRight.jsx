@@ -3,7 +3,7 @@
 import React from "react";
 import SocialTwo from "../../social/SocialTwo";
 import Image from "next/image";
-const logo = "/assets/img/root/logo-dark.png";
+const logo = "/assets/img/imgs-de-la-marca/logo-hydroptima-dark (1).svg";
 
 const CopyRight = () => {
   return (
@@ -24,16 +24,17 @@ const CopyRight = () => {
         <p className="ptf-footer-copyright has-black-color">
           ©{new Date().getFullYear()}{" "}
           <span>
-            Moonex by{" "}
             <a
+              class="has-accent-1"
               href="https://themeforest.net/user/ib-themes"
               rel="noopener noreferrer"
               target="_blank"
-            >
-              ib-themes
+              >
+              Hydroptima{" "}
+              Todos{" "}
             </a>
           </span>
-          . All Rights Reserved.
+           los derechos reservados.
         </p>
       </div>
       <div className="col-12 col-lg text-md-center text-lg-end">

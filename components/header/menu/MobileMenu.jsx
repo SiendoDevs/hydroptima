@@ -202,7 +202,7 @@ const MobileMenu = () => {
 
       <div className="ptf-offcanvas-menu__footer">
         <p className="ptf-offcanvas-menu__copyright">
-          @{new Date().getFullYear()} <span><a href="https://tuhydroptima.com/">Hydroptima</a></span>. Todos los derechos reservados.{" "}
+          @{new Date().getFullYear()} <span><a href="https://tuhydroptima.com/" className="has-accent-1">Hydroptima</a></span>. Todos los derechos reservados.{" "}
           <br />
           {/* Development by{" "}
           <span>
