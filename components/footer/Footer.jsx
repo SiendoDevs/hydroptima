@@ -56,13 +56,13 @@ const Footer = () => {
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
           <div
-            className="ptf-footer-heading has-black-color"
+            className="ptf-footer-heading --ptf-accent-1"
             style={{ maxWidth: "37.5rem" }}
           >
             Boost Your Business Up To High Level
           </div>
 
-          <div className="ptf-footer-heading has-black-color">
+          <div className="ptf-footer-heading --ptf-accent-1">
             Start by
             <Link
               className="has-accent-1 text-decoration-underline"
@@ -72,8 +72,8 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="fz-24">90 Fairground Rd, FL 3290, United States</p>
-          <a className="fz-40 has-black-color" href="mailto:hello@moonex.co">
+          <p className="fz-24 --ptf-accent-1">90 Fairground Rd, FL 3290, United States</p>
+          <a className="fz-40 --ptf-accent-1 has-accent-1" href="mailto:hello@moonex.co">
             hello@moonex.co
           </a>
         </div>
@@ -85,11 +85,11 @@ const Footer = () => {
           data-aos="fade"
           data-aos-delay="100"
         >
-          <div className="ptf-widget ptf-widget-links has-black-color">
+          <div className="ptf-widget ptf-widget-links --ptf-accent-1">
             <h4 className="ptf-widget-title">Links</h4>
             <ul>
               {linkList.map((val, i) => (
-                <li key={i}>
+                <li key={i} class="has-accent-1">
                   <a href={val.link}>{val.itemName}</a>
                 </li>
               ))}
@@ -109,7 +109,7 @@ const Footer = () => {
             <div className="ptf-widget ptf-widget-links has-black-color">
               <ul>
                 {Product.map((val, i) => (
-                  <li key={i}>
+                  <li key={i} class="has-accent-1">
                     <a href={val.link}>{val.itemName}</a>
                   </li>
                 ))}

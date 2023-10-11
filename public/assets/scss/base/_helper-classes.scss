@@ -10,8 +10,22 @@
 }
 
 .has-accent-1 {
-  color: var(--ptf-accent-1) !important;
+  color: var(--ptf-accent-1);
+  transition: color 0.3s;
 }
+
+.has-accent-1:hover {
+  color: var(--ptf-accent-hover);
+}
+
+.has-accent-1 {
+  --ptf-accent-1: var(--ptf-accent);
+}
+
+.has-accent-1:hover {
+  --ptf-accent-hover: var(--ptf-accent-5);
+}
+
 
 .has-accent-1-background {
   background-color: var(--ptf-accent-1);
