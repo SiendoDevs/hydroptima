@@ -7,7 +7,7 @@ const heroContent = {
   subTitle1: "La solución al sarro",
   subTitle2: "",
   subTitleDescription1: "Descalcificador de agua",
-  subTitleDescription2: "para toda la casa",
+  subTitleDescription2: "para el hogar",
   detailsDescription: `Nuestro revolucionario sistema Anti Sarro es la solución definitiva para prevenir la acumulación de minerales de calcio y magnesio, manteniendo tus instalaciones libres de escamas y eliminando contaminantes en el agua mediante la avanzada tecnología IPSE.`,
 };
 
