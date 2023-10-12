@@ -29,12 +29,12 @@ const CopyRight = () => {
               href="https://tuhydroptima.com/"
               rel="noopener noreferrer"
               target="_blank"
-              >
+            >
               Hydroptima{" "}
-              Todos{" "}
             </a>
           </span>
-           los derechos reservados.
+          Todos{" "}
+          los derechos reservados.
         </p>
       </div>
       <div className="col-12 col-lg text-md-center text-lg-end">

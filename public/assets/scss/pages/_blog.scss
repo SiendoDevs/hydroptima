@@ -195,7 +195,7 @@
   .ptf-post__excerpt {
     margin-top: px2rem(30px);
 
-    color: var(--ptf-color-black);
+    color: var(--ptf-color-white);
     font-size: px2rem(18px);
 
     @media (max-width: 1919px) {
@@ -206,7 +206,7 @@
   .ptf-post__footer {
     margin-top: px2rem(30px);
 
-    color: var(--ptf-color-black);
+    color: var(--ptf-color-black);;
 
     @include mq("large", min) {
       margin-top: auto;
@@ -217,6 +217,12 @@
       font-size: px2rem(14px);
       font-weight: 700;
     }
+    &:hover {
+    .ptf-read-more-link {
+      transform: translateY(0);
+      color: var(--ptf-accent-1);
+    }
+  }
   }
 
   &:hover {
@@ -365,7 +371,7 @@
   padding: 0 12px;
 
   &:hover {
-    background: #000;
+    background: var(--ptf-accent-5);
     padding: 8px 12px;
   }
 }
