@@ -106,7 +106,7 @@ const Footer = () => {
         >
           <div className="ptf-widget ptf-widget-text">
             <h4 className="ptf-widget-title">Product</h4>
-            <div className="ptf-widget ptf-widget-links has-black-color">
+            <div className="ptf-widget ptf-widget-links --ptf-accent-1">;
               <ul>
                 {Product.map((val, i) => (
                   <li key={i} class="has-accent-1">
