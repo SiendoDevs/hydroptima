@@ -8,12 +8,12 @@ const testimonialContent = [
   {
     descriptions: ` Quiero agradecerles a la gente de Hydroptima. Instalé su sistema anti sarro y no he tenido que preocuparme por el mantenimiento. La acumulación de sarro se redujo notablemente. ¡Gracias por mejorar la calidad de mi agua!`,
     name: "Ana D.",
-    designation: "CEO at Liarch Studio",
+    designation: "",
   },
   {
     descriptions: ` No solo obtuve agua de mejor calidad, sino que mi casa se ha revalorizado. Los posibles compradores ven el valor de su producto. Gracias por transformar mi hogar y mi inversión.`,
     name: "Agustin W.",
-    designation: "CEO at Liarch Studio",
+    designation: "",
   },
 ];
 

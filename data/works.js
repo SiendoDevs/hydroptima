@@ -2,32 +2,32 @@
 export const portfolioContent = [
     {
       id:1 ,
-      img: "/assets/img/portfolio/work-1.png",
-      categorie: "Extraño",
+      img: "/assets/img/imgs-de-la-marca/Olor y sabor extraños.jpg",
+      categorie: "",
       title: "sabor u olor en el agua",
     },
     {
       id:2 ,
-      img: "/assets/img/portfolio/work-2.png",
-      categorie: "Manchas",
+      img: "/assets/img/imgs-de-la-marca/machas en cristaleria.jpg",
+      categorie: "",
       title: "en cristalería y platos",
     },
     {
       id:3 ,
-      img: "/assets/img/portfolio/work-3.png",
-      categorie: "Perdida",
+      img: "/assets/img/imgs-de-la-marca/Perdidad e presion de agua.jpg",
+      categorie: "",
       title: "de presión de agua",
     },
     {
       id:4 ,
-      img: "/assets/img/portfolio/work-4.png",
-      categorie: "Manchas",
+      img: "/assets/img/imgs-de-la-marca/machas en superficies.jpg",
+      categorie: "",
       title: "en superficies sanitarias",
     },
     {
       id: 5,
-      img: "/assets/img/portfolio/work-5.png",
-      categorie: "Problemas de piel",
+      img: "/assets/img/imgs-de-la-marca/Resequedad en la piel.jpg",
+      categorie: "",
       title: "causada por minerales",
     },
   ];

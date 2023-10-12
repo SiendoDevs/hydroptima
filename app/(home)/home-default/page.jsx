@@ -69,7 +69,7 @@ const HomeDefault = () => {
                     >
                       <h2 className="h2 large-heading">
                         Nuestra <br />
-                        Solucion
+                        Solución
                       </h2>
                       {/* <!--Spacer--> */}
                       <div
@@ -188,7 +188,7 @@ const HomeDefault = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h1 large-heading">Beneficios Hydroptima</h2>
+                  <h2 className="h1 large-heading">Beneficios</h2>
                 </div>
                 {/* <!--Spacer--> */}
                 <div
