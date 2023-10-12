@@ -80,7 +80,7 @@ const Brand = () => {
                   loading="lazy"
                 />
               </div>
-              <h6 className="ptf-partner-box__title">{item.title}</h6>
+              <h6 className="ptf-partner-box__title" style={{fontSize:"14px"}}>{item.title}</h6>
             </div>
           </div>
         </div>
