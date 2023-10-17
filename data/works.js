@@ -4,31 +4,31 @@ export const portfolioContent = [
       id:1 ,
       img: "/assets/img/imgs-de-la-marca/Olor y sabor extraños.jpg",
       categorie: "",
-      title: "sabor u olor en el agua",
+      title: "Sabor u olor en el agua",
     },
     {
       id:2 ,
       img: "/assets/img/imgs-de-la-marca/machas en cristaleria.jpg",
       categorie: "",
-      title: "en cristalería y platos",
+      title: "En cristalería y platos",
     },
     {
       id:3 ,
       img: "/assets/img/imgs-de-la-marca/Perdidad e presion de agua.jpg",
       categorie: "",
-      title: "de presión de agua",
+      title: "De presión de agua",
     },
     {
       id:4 ,
       img: "/assets/img/imgs-de-la-marca/machas en superficies.jpg",
       categorie: "",
-      title: "en superficies sanitarias",
+      title: "En superficies sanitarias",
     },
     {
       id: 5,
       img: "/assets/img/imgs-de-la-marca/Resequedad en la piel.jpg",
       categorie: "",
-      title: "causada por minerales",
+      title: "Causada por minerales",
     },
   ];
 

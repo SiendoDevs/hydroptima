@@ -45,111 +45,111 @@ const menuContent = [
       },
     ],
   },
-  {
-    name: "Portfolio",
-    page: "works",
-    activeClass: "",
-    menuClass: "",
-    dropDownItems: [
-      {
-        name: "Works Grid",
-        routerPath: "/works-grid",
-      },
-      {
-        name: "Works Masonry",
-        routerPath: "/works-masonry",
-      },
-      {
-        name: "Works Listing",
-        routerPath: "/works-listing",
-      },
-      {
-        name: "Works Carousel",
-        routerPath: "/works-carousel",
-      },
-      {
-        name: "Works Showcase",
-        routerPath: "/works/3",
-      },
-    ],
-  },
-  {
-    name: "Blog",
-    activeClass: "",
-    menuClass: "",
-    page: "blog",
+  // {
+  //   name: "Portfolio",
+  //   page: "works",
+  //   activeClass: "",
+  //   menuClass: "",
+  //   dropDownItems: [
+  //     {
+  //       name: "Works Grid",
+  //       routerPath: "/works-grid",
+  //     },
+  //     {
+  //       name: "Works Masonry",
+  //       routerPath: "/works-masonry",
+  //     },
+  //     {
+  //       name: "Works Listing",
+  //       routerPath: "/works-listing",
+  //     },
+  //     {
+  //       name: "Works Carousel",
+  //       routerPath: "/works-carousel",
+  //     },
+  //     {
+  //       name: "Works Showcase",
+  //       routerPath: "/works/3",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Blog",
+  //   activeClass: "",
+  //   menuClass: "",
+  //   page: "blog",
 
-    dropDownItems: [
-      {
-        name: "Blog Grid",
-        routerPath: "/blog-grid",
-      },
-      {
-        name: "Blog Masonry",
-        routerPath: "/blog-masonry",
-      },
-      {
-        name: "Blog Sidebar",
-        routerPath: "/blog-sidebar",
-      },
-      {
-        name: "Blog Details",
-        routerPath: "/blog/2",
-      },
-      {
-        name: "Blog Details Sidebar",
-        routerPath: "/blog-details-sidebar/7",
-      },
-    ],
-  },
-  {
-    name: "Pages",
-    activeClass: "",
-    page: "others",
-    menuClass: "two-columns",
-    dropDownItems: [
-      {
-        name: "About Us",
-        routerPath: "/about-us",
-      },
-      {
-        name: "About Me",
-        routerPath: "/about-me",
-      },
-      {
-        name: "Services",
-        routerPath: "/service",
-      },
-      {
-        name: "Service Details",
-        routerPath: "/service/5",
-      },
-      {
-        name: "Pricing",
-        routerPath: "/pricing",
-      },
-      {
-        name: "Team",
-        routerPath: "/team",
-      },
-      {
-        name: "FAQ",
-        routerPath: "/faq",
-      },
-      {
-        name: "Contact",
-        routerPath: "/contact",
-      },
-      {
-        name: "Page 404",
-        routerPath: "/404",
-      },
-      {
-        name: "Coming Soon",
-        routerPath: "/coming-soon",
-      },
-    ],
-  },
+  //   dropDownItems: [
+  //     {
+  //       name: "Blog Grid",
+  //       routerPath: "/blog-grid",
+  //     },
+  //     {
+  //       name: "Blog Masonry",
+  //       routerPath: "/blog-masonry",
+  //     },
+  //     {
+  //       name: "Blog Sidebar",
+  //       routerPath: "/blog-sidebar",
+  //     },
+  //     {
+  //       name: "Blog Details",
+  //       routerPath: "/blog/2",
+  //     },
+  //     {
+  //       name: "Blog Details Sidebar",
+  //       routerPath: "/blog-details-sidebar/7",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Pages",
+  //   activeClass: "",
+  //   page: "others",
+  //   menuClass: "two-columns",
+  //   dropDownItems: [
+  //     {
+  //       name: "About Us",
+  //       routerPath: "/about-us",
+  //     },
+  //     {
+  //       name: "About Me",
+  //       routerPath: "/about-me",
+  //     },
+  //     {
+  //       name: "Services",
+  //       routerPath: "/service",
+  //     },
+  //     {
+  //       name: "Service Details",
+  //       routerPath: "/service/5",
+  //     },
+  //     {
+  //       name: "Pricing",
+  //       routerPath: "/pricing",
+  //     },
+  //     {
+  //       name: "Team",
+  //       routerPath: "/team",
+  //     },
+  //     {
+  //       name: "FAQ",
+  //       routerPath: "/faq",
+  //     },
+  //     {
+  //       name: "Contact",
+  //       routerPath: "/contact",
+  //     },
+  //     {
+  //       name: "Page 404",
+  //       routerPath: "/404",
+  //     },
+  //     {
+  //       name: "Coming Soon",
+  //       routerPath: "/coming-soon",
+  //     },
+  //   ],
+  // },
 ];
 
 const DropdownMenu = () => {
