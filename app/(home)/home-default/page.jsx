@@ -126,7 +126,7 @@ const HomeDefault = () => {
                       style={{ "--ptf-md": "1.875rem" }}
                     ></div>
                     {/* <!--Animated Block--> */}
-                    <Link
+                    {/* <Link
                       className="
                           ptf-link-with-arrow
                           fz-18
@@ -139,7 +139,7 @@ const HomeDefault = () => {
                       style={{ marginLeft: "5.625rem" }}
                     >
                       Detección <i className="lnil lnil-chevron-right"></i>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
                 {/* <!--Spacer--> */}
@@ -266,7 +266,7 @@ const HomeDefault = () => {
             <section
               className="jarallax jarallax-img"
               style={{
-                backgroundImage: `url("/assets/img/about-us-testimonial-background.png")`,
+                backgroundImage: `url("/assets/img/about-us-testimonial-background.jpg")`,
               }}
             >
               {/* <!--Spacer--> */}
@@ -286,7 +286,7 @@ const HomeDefault = () => {
                       <Image
                         width={1200}
                         height={1200}
-                        style={{ width: "100%", height: "100%" }}
+                        style={{ width: "50%", height: "50%" }}
                         src="/assets/img/root/quote.png"
                         alt=""
                         loading="lazy"
