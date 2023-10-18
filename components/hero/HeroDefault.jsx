@@ -30,7 +30,7 @@ const HeroDefault = () => {
           <p
             className="
                 fz-40
-                fw-bold
+                fw-semibold
                 lh-1p3
                 has-white-color
               "

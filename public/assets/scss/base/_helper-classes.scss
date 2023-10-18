@@ -157,16 +157,17 @@
 
 .fz-40 {
   font-size: px2rem(40px);
+  
 
   &--md {
     @include mq("medium") {
-      font-size: px2rem(40px);
+      font-size: px2rem(35px);
     }
   }
 
   &--sm {
     @include mq("small") {
-      font-size: px2rem(40px);
+      font-size: px2rem(30px);
     }
   }
 }
