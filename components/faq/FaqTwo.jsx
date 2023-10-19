@@ -5,21 +5,21 @@ import Link from "next/link";
 
 const faqContent = [
   {
-    title: "Progress",
+    title: "Eficiencia",
     faqInner: [
       {
-        title: "How about our progress?",
-        descriptions: `Ex Portland Pitchfork irure mustache. Eutra fap before they sold out literally. Aliquip ugh bicycle rights actually mlkshk, seitan squid craft beer tempor.`,
+        title: "¿Cómo funciona nuestra tecnología?",
+        descriptions: `Nuestra tecnología de vanguardia utiliza la polarización de iones para eliminar el sarro de manera efectiva sin la necesidad de sal, electricidad o resinas.`,
       },
       {
-        title: "Do you provide a NDA Agreement?",
+        title: "¿Cuáles son las ventajas de prescindir de sal y electricidad?",
         descriptions: `
-        Hoodie tote bag mixtape tofu. Typewriter jean shorts wolf quinoa, messenger bag organic freegan cray.`,
+        Al no requerir sal ni electricidad, nuestro sistema es más ecológico y económico. No solo ahorra energía, sino que también reduce la necesidad de mantenimiento constante.`,
       },
       {
-        title: "How many revisions times that I get?",
+        title: "¿Por qué es importante proteger cañerías y electrodomésticos?",
         descriptions: `
-        Swag slow-carb quinoa VHS typewriter pork belly brunch, paleo single-origin coffee Wes Anderson. Flexitarian Pitchfork forage, literally paleo fap pour-over. Wes Anderson Pinterest YOLO fanny pack meggings, deep v XOXO chambray sustainable slow-carb raw denim church-key fap chillwave Etsy. +1 typewriter kitsch, American Apparel tofu Banksy Vice.`,
+        Proteger tus cañerías y electrodomésticos evita daños costosos y prolonga su vida útil, lo que ahorra dinero y mantiene tu hogar en condiciones óptimas.`,
       },
     ],
   },
@@ -67,44 +67,62 @@ const faqContent = [
 
 const FaqTwo = () => {
   return (
-    
-      /* <!--Spacer--> */
 
-      <div className="container-xxl">
-        {faqContent.map((item, i) => (
-          <div key={i}>
-            <div className="ptf-animated-block" data-aos="fade">
-              {/* <!--FAQ--> */}
-              <div className="ptf-faq">
-                <div className="ptf-faq__category">
-                  <h3>{item.title}</h3>
-                </div>
-                <div className="ptf-faq__content">
-                  {item.faqInner.map((val, i) => (
-                    <div className="ptf-faq__item" key={i}>
-                      <div className="ptf-faq__question">
-                        <h6>{val.title}</h6>
-                      </div>
-                      <div className="ptf-faq__answer">
-                        <p>{val.descriptions}</p>
-                      </div>
+    /* <!--Spacer--> */
+
+    <div className="container-xxl">
+      {faqContent.map((item, i) => (
+        <div key={i}>
+          <div className="ptf-animated-block" data-aos="fade">
+            {/* <!--FAQ--> */}
+            <div className="ptf-faq">
+              <div className="ptf-faq__category">
+                <h3>{item.title}</h3>
+              </div>
+              <div className="ptf-faq__content">
+                {item.faqInner.map((val, i) => (
+                  <div className="ptf-faq__item" key={i}>
+                    <div className="ptf-faq__question">
+                      <h6>{val.title}</h6>
                     </div>
-                  ))}
-                  {/* End .ptf-faq__item */}
-                </div>
+                    <div className="ptf-faq__answer">
+                      <p>{val.descriptions}</p>
+                    </div>
+                  </div>
+                ))}
+                {/* End .ptf-faq__item */}
               </div>
             </div>
-            <div
-              className="ptf-spacer"
-              style={{ "--ptf-xxl": "5.625rem" }}
-            ></div>
           </div>
-        ))}
+          <div
+            className="ptf-spacer"
+            style={{ "--ptf-xxl": "5.625rem" }}
+          ></div>
+          <div>
+            <div style={{ float: 'left', marginRight: '15px' }}>
+              <img src="/assets/img/imgs-de-la-marca/HYD-44-01.jpg" alt="" />
+            </div>
+            <div style={{ float: 'left' }}>
+              <img src="/assets/img/imgs-de-la-marca/HYD-44-02.jpg" alt="" />
+            </div>
+            <div style={{ clear: 'both' }}></div>
+          </div>
+          <div
+            className="ptf-spacer"
+            style={{ "--ptf-xxl": "5.625rem" }}
+          ></div>
+          <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
+          <div
+            className="ptf-spacer"
+            style={{ "--ptf-xxl": "5.625rem" }}
+          ></div>
+        </div>
+      ))}
 
-        {/* <!--Spacer--> */}
-        {/* <div className="ptf-spacer" style={{ "--ptf-xxl": "4.375rem" }}></div> */}
-        {/* <!--Animated Block--> */}
-        {/* <div className="ptf-animated-block" data-aos="fade">
+      {/* <!--Spacer--> */}
+      {/* <div className="ptf-spacer" style={{ "--ptf-xxl": "4.375rem" }}></div> */}
+      {/* <!--Animated Block--> */}
+      {/* <div className="ptf-animated-block" data-aos="fade">
           <p className="fz-24">
             Don’t find your question?{" "}
             <Link
@@ -116,12 +134,12 @@ const FaqTwo = () => {
             now, we alway willing to help you.
           </p>
         </div> */}
-      </div>
-      /* <!--Spacer--> */
-      /* <div
-        className="ptf-spacer"
-        style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-      ></div> */
+    </div>
+    /* <!--Spacer--> */
+    /* <div
+      className="ptf-spacer"
+      style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+    ></div> */
   );
 };
 

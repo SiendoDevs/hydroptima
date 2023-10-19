@@ -6,7 +6,7 @@
 
   padding-bottom: px2rem(100px);
 
-  // border-bottom: 1px solid var(--ptf-color-14);
+  // border-bottom: 1px solid var(--ptf-accent-1);
 
   grid-template-columns: px2rem(345px) 1fr;
   @include mq("large") {
