@@ -71,7 +71,7 @@ const HomeDefault = () => {
                     >
                       <h2 className="h2 large-heading">
                         Nuestra <br />
-                        Solución
+                        solución
                       </h2>
                       {/* <!--Spacer--> */}
                       <div
