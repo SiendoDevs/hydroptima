@@ -100,7 +100,7 @@ export const serviceContent = [
   },
   {
     id: 14,
-    icon: "lnil lnil-microscope",
+    icon: "lnil lnil-dna",
     titlePart1: "MINERALES",
     titlePart2: "INACTIVOS",
     descriptions: ` Los minerales "duros" se convierten en partículas microscópicas inactivas, evitando que se adhieran a las superficies y evitando la acumulación de sarro.`,
