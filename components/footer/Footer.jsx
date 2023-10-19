@@ -32,24 +32,58 @@ const linkList = [
 
 const Product = [
   {
-    itemName: "Works",
+    itemName: "Inicio",
     link: "/",
   },
   {
-    itemName: "About",
+    itemName: "Solución",
     link: "/",
   },
   {
-    itemName: "News",
+    itemName: "Beneficios",
     link: "/",
   },
   {
-    itemName: "Contact",
+    itemName: "Vanguardia",
     link: "/",
   },
 ];
 
 const Footer = () => {
+
+  const inicioHome = () => {
+    const portfolioSection = document.getElementById("inicio");
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const scrollToPortfolio = () => {
+    const portfolioSection = document.getElementById("portfolio-section");
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const scrollToBeneficios = () => {
+    const beneficiosSection = document.getElementById("beneficios");
+    if (beneficiosSection) {
+      beneficiosSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToVanguardia = () => {
+    const vanguardiaSection = document.getElementById("vanguardia");
+    if (vanguardiaSection) {
+      vanguardiaSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
+  const scrollToContacto = () => {
+    const contactoSection = document.getElementById("footer");
+    if (contactoSection) {
+      contactoSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="row">
       <div className="col-12 col-xl-6">
@@ -86,7 +120,7 @@ const Footer = () => {
           data-aos="fade"
           data-aos-delay="100"
         >
-          <div className="ptf-widget ptf-widget-links --ptf-accent-1">
+          {/* <div className="ptf-widget ptf-widget-links --ptf-accent-1">
             <h4 className="ptf-widget-title">Links</h4>
             <ul>
               {linkList.map((val, i) => (
@@ -95,7 +129,7 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="col-12 col-md-6 col-xl-3">
@@ -106,12 +140,12 @@ const Footer = () => {
           data-aos-delay="200"
         >
           <div className="ptf-widget ptf-widget-text">
-            <h4 className="ptf-widget-title">Product</h4>
+            <h4 className="ptf-widget-title">Enlaces Rápidos</h4>
             <div className="ptf-widget ptf-widget-links --ptf-accent-1">
               <ul>
                 {Product.map((val, i) => (
                   <li key={i} class="has-accent-1">
-                    <a href={val.link}>{val.itemName}</a>
+                    <a href={`#${val.itemName}-section`} onClick={val.itemName === "Solución" ? scrollToPortfolio : val.itemName === "Beneficios" ? scrollToBeneficios : val.itemName === "Vanguardia" ? scrollToVanguardia : val.itemName === "Inicio" ? inicioHome : val.itemName === "Contacto" ? scrollToContacto : null}>{val.itemName}</a>
                   </li>
                 ))}
               </ul>

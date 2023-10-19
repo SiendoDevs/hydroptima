@@ -26,9 +26,9 @@ const CopyRight = () => {
           <span>
             <a
               class="has-accent-1"
-              href="https://tuhydroptima.com/"
+              href="#"
               rel="noopener noreferrer"
-              target="_blank"
+              target="_self"
             >
               Hydroptima{" "}
             </a>

@@ -14,6 +14,7 @@ import Approach from "../../../components/service/Approach";
 import ServiceOne from "../../../components/service/ServiceOne";
 import Testimonial from "../../../components/testimonial/Testimonial";
 import Faq from "@/app/(others-pages)/faq/page";
+import ImageGridTwo from "@/components/image-grid/ImageGridTwo";
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import Image from "next/image";
 
@@ -216,6 +217,18 @@ const HomeDefault = () => {
               ============================================== */}
             <section id="vanguardia">
               <Faq />
+              <div className="container-xxl">
+                <ImageGridTwo />
+                <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+                <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
+              </div>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
               <div className="container-xxl">
                 <Counter />
               </div>
