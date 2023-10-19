@@ -198,9 +198,9 @@
     color: var(--ptf-color-white);
     font-size: px2rem(18px);
 
-    @media (max-width: 1919px) {
-      display: none;
-    }
+    // @media (max-width: 1919px) {
+    //   display: none;
+    // }
   }
 
   .ptf-post__footer {
