@@ -12,12 +12,12 @@ const ContactJarallax = () => {
           <div className="fz-36 has-accent-1">Describe your project</div>
           {/* <!--Spacer--> */}
           <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
-          <div className="fz-120 fz-90--md has-white-color fw-bold lh-1p1">
+          <div className="fz-120 fz-90--md --ptf-accent-1 fw-bold lh-1p1">
             <Link href="/contact" className="ptf-filled-link">
               Call Moonex
             </Link>
           </div>
-          <div className="fz-80 has-white-color">
+          <div className="fz-80 --ptf-accent-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

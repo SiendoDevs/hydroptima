@@ -13,6 +13,8 @@ import Portfolio from "../../../components/portfolio/Portfolio";
 import Approach from "../../../components/service/Approach";
 import ServiceOne from "../../../components/service/ServiceOne";
 import Testimonial from "../../../components/testimonial/Testimonial";
+import Faq from "@/app/(others-pages)/faq/page";
+import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import Image from "next/image";
 
 export const metadata = {
@@ -104,65 +106,69 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Portfolio Section
               ============================================== */}
-            <section>
-              <div className="container-xxl">
-                <div className="row align-items-center">
-                  <div className="col-12 col-md-9">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h2 large-heading d-inline-flex">
-                        Agua Dura
-                      </h2>
-                    </div>
-                  </div>
-                  <div className="col-12 col-md-3 text-md-end">
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-md": "1.875rem" }}
-                    ></div>
-                    {/* <!--Animated Block--> */}
-                    {/* <Link
-                      className="
-                          ptf-link-with-arrow
-                          fz-18
-                          text-uppercase
-                          fw-semibold
-                          has-black-color
-                          d-none d-lg-inline-flex
-                        "
-                      href="/works-grid"
-                      style={{ marginLeft: "5.625rem" }}
-                    >
-                      Detección <i className="lnil lnil-chevron-right"></i>
-                    </Link> */}
-                  </div>
-                </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "6.25rem" }}
-                ></div>
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  {/* <!--Content Slider--> */}
-                  <Portfolio />
-                </div>
+            <section></section>
+            {
+              /* <section>
+                <div className="container-xxl">
+                  <div className="row align-items-center">
+                    <div className="col-12 col-md-9">
+                      {/* <!--Animated Block--> */
+              /* <div
+                className="ptf-animated-block"
+                data-aos="fade"
+                data-aos-delay="0"
+              >
+                <h2 className="h2 large-heading d-inline-flex">
+                  Agua Dura
+                </h2>
               </div>
-              {/* <!--Spacer--> */}
-              <div
+            </div>
+            <div className="col-12 col-md-3 text-md-end">
+              {/* <!--Spacer--> */
+              /* <div
+                className="ptf-spacer"
+                style={{ "--ptf-md": "1.875rem" }}
+              ></div>
+              {/* <!--Animated Block--> */
+              /* <Link
+                className="
+                    ptf-link-with-arrow
+                    fz-18
+                    text-uppercase
+                    fw-semibold
+                    has-black-color
+                    d-none d-lg-inline-flex
+                  "
+                href="/works-grid"
+                style={{ marginLeft: "5.625rem" }}
+              >
+                Detección <i className="lnil lnil-chevron-right"></i>
+              </Link>
+            </div>
+          </div>
+          {/* <!--Spacer--> */
+              /* <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "6.25rem" }}
+              ></div>
+              {/* <!--Animated Block--> */
+              /* <div
+                className="ptf-animated-block"
+                data-aos="fade"
+                data-aos-delay="0"
+              >
+                {/* <!--Content Slider--> */
+              /* <Portfolio />
+            </div>
+          </div>
+          {/* <!--Spacer--> */
+              /* <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
               ></div>
-            </section>
+            </section> */
+            }
+
 
             {/*=============================================
                 Start Our Approach Section
@@ -208,49 +214,8 @@ const HomeDefault = () => {
                 Start Brand and Counterup Section
               ============================================== */}
             <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
+              <Faq />
               <div className="container-xxl">
-                <div className="row">
-                  <div className="col-12">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h2 large-heading">Polarización de Iones</h2>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}
-                    ></div>
-                  </div>
-                </div>
-                {/* End .row */}
-                <Brand />
-                <div className="row">
-                  <div className="col-12">
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-                    ></div>
-                    {/* <!--Divider--> */}
-                    <div className="ptf-divider"></div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
-                    ></div>
-                  </div>
-                </div>
-                {/* End .row */}
-
                 <Counter />
               </div>
               {/* <!--Spacer--> */}
@@ -313,43 +278,14 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Award Section
               ============================================== */}
+
+
             <section>
               {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "11.875rem", "--ptf-md": "5.9375rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-lg-4">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h2 large-heading">
-                        Our
-                        <br />
-                        Awards
-                      </h2>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-lg": "3.75rem" }}
-                    ></div>
-                  </div>
-                  <div className="col-lg-8">
-                    <Award />
-                  </div>
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
+              {/* <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
+              ></div> */}
             </section>
 
             <section>
@@ -386,9 +322,17 @@ const HomeDefault = () => {
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
+                style={{ "--ptf-xxl": "11.875rem", "--ptf-md": "5.9375rem" }}
+              ></div>
+              {/* <!--Spacer--> */}
+              <ContactJarallax />
+              <div
+                className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
             </section>
+
+
 
             {/*=============================================
                 End Blog Section
