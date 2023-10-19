@@ -9,7 +9,7 @@ export const metadata = {
 
 const Faq = () => {
   return (
-    <>
+    <div id="vanguardia">
       {/* <HeaderDefault /> */}
       {/* End Header */}
 
@@ -65,7 +65,7 @@ const Faq = () => {
           </div>
         </div>
       </footer> */}
-    </>
+    </div>
   );
 };
 

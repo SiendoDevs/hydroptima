@@ -10,15 +10,15 @@ const ContactJarallax = () => {
       <div className="d-inline-flex text-start">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
-          <div className="fz-36 has-accent-1">Agua más pura</div>
+          <div className="fz-36">Agua más pura</div>
           {/* <!--Spacer--> */}
           <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
-          <div className="fz-120 fz-90--md --ptf-accent-1 fw-bold lh-1p1">
+          <div className="fz-120 fz-90--md --ptf-color-white fw-bold lh-1p1">
             <Link href="/contact" className="ptf-filled-link">
               Contactanos
             </Link>
           </div>
-          <div className="fz-80 --ptf-accent-1">
+          <div className="fz-80 --ptf-color-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

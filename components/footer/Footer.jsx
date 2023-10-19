@@ -66,7 +66,8 @@ const Footer = () => {
             ¡Contactate con{" "}
             <Link
               className="has-accent-1 text-decoration-underline"
-              href="/contact"
+              href="https://api.whatsapp.com/send?phone=5491130669655"
+              target="_blank"
             >
               nosotros!
             </Link>

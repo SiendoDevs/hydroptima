@@ -4,7 +4,7 @@ import { serviceContent } from "../../data/service";
 
 const ServiceOne = () => {
   return (
-    <>
+    <div>
       {serviceContent.map((val, i) => (
         <div
           className="ptf-animated-block"
@@ -34,7 +34,7 @@ const ServiceOne = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 

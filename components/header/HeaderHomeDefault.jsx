@@ -6,6 +6,7 @@ import Search from "../form/Search";
 import DropdownMenu from "./menu/DropdownMenu";
 import MobileMenu from "./menu/MobileMenu";
 import Image from "next/image";
+import "./HeaderHomeDefault.css"
 
 const HeaderHomeDefault = () => {
   const [click, setClick] = useState(false);
@@ -30,7 +31,7 @@ const HeaderHomeDefault = () => {
   }, []);
 
   return (
-    <>
+    <div id="inicio">
       <header className="ptf-header ptf-header--style-3">
         <div
           className={
@@ -70,7 +71,7 @@ const HeaderHomeDefault = () => {
               {/* <!--Buttons--> */}
 
               {/* <!--Navbar Search--> */}
-              <div
+              {/* <div
                 className={
                   click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
                 }
@@ -86,7 +87,7 @@ const HeaderHomeDefault = () => {
                   <i className="lnir lnir-search-alt"></i>
                   <i className="lnir lnir-close"></i>
                 </div>
-              </div>
+              </div> */}
               {/* <!--Offcanvas Menu Toggle--> */}
 
               <div
@@ -127,7 +128,7 @@ const HeaderHomeDefault = () => {
         <MobileMenu />
       </div>
       {/* End sidebar menu */}
-    </>
+    </div>
   );
 };
 
