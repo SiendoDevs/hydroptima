@@ -114,10 +114,11 @@ const HeroDefault = () => {
                 {/* <!--Button--> */}
                 <a
                   className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-                  href="about-us.html"
-                  target="_self"
+                  href="https://api.whatsapp.com/send?phone=5491130669655"
+                  target="_blank"
                 >
-                  Más Info.
+                  Más Info
+                  <i className="socicon-whatsapp" style={{ marginLeft: '10px' }}></i>
                 </a>
               </div>
             </div>

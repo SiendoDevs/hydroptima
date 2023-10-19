@@ -54,7 +54,7 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Service Section
               ============================================== */}
-            <section>
+            <section id="portfolio-section">
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
@@ -174,6 +174,7 @@ const HomeDefault = () => {
                 Start Our Approach Section
               ============================================== */}
             <section
+              id="beneficios"
               className="has-accent-1-background"
               style={{
                 backgroundImage: `url(${"" + "/assets/img/root/service-bubble.png"
@@ -213,7 +214,7 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Brand and Counterup Section
               ============================================== */}
-            <section>
+            <section id="vanguardia">
               <Faq />
               <div className="container-xxl">
                 <Counter />
@@ -252,7 +253,7 @@ const HomeDefault = () => {
                       <Image
                         width={1200}
                         height={1200}
-                        style={{ width: "50%", height: "50%" }}
+                        style={{ width: "30%", height: "30%" }}
                         src="/assets/img/root/quote.png"
                         alt=""
                         loading="lazy"
@@ -327,11 +328,11 @@ const HomeDefault = () => {
                 style={{ "--ptf-xxl": "11.875rem", "--ptf-md": "5.9375rem" }}
               ></div>
               {/* <!--Spacer--> */}
-              <ContactJarallax />
+              {/* <ContactJarallax />
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
+              ></div> */}
             </section>
 
 
@@ -344,7 +345,7 @@ const HomeDefault = () => {
         {/* End .ptf-main */}
 
         {/* <!--Footer--> */}
-        <footer className="ptf-footer ptf-footer--style-1">
+        <footer className="ptf-footer ptf-footer--style-1" id="footer">
           <div className="container-xxl">
             <div className="ptf-footer__top">
               <Footer />

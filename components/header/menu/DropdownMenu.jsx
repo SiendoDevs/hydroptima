@@ -45,112 +45,120 @@ const menuContent = [
       },
     ],
   },
-  // {
-  //   name: "Portfolio",
-  //   page: "works",
-  //   activeClass: "",
-  //   menuClass: "",
-  //   dropDownItems: [
-  //     {
-  //       name: "Works Grid",
-  //       routerPath: "/works-grid",
-  //     },
-  //     {
-  //       name: "Works Masonry",
-  //       routerPath: "/works-masonry",
-  //     },
-  //     {
-  //       name: "Works Listing",
-  //       routerPath: "/works-listing",
-  //     },
-  //     {
-  //       name: "Works Carousel",
-  //       routerPath: "/works-carousel",
-  //     },
-  //     {
-  //       name: "Works Showcase",
-  //       routerPath: "/works/3",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "Blog",
-  //   activeClass: "",
-  //   menuClass: "",
-  //   page: "blog",
+  {
+    name: "Solución",
+    page: "works",
+    activeClass: "",
+    menuClass: "",
+    dropDownItems: [
+      {
+        name: "Works Grid",
+        routerPath: "/works-grid",
+      },
+      {
+        name: "Works Masonry",
+        routerPath: "/works-masonry",
+      },
+      {
+        name: "Works Listing",
+        routerPath: "/works-listing",
+      },
+      {
+        name: "Works Carousel",
+        routerPath: "/works-carousel",
+      },
+      {
+        name: "Works Showcase",
+        routerPath: "/works/3",
+      },
+    ],
+  },
+  {
+    name: "Beneficios",
+    activeClass: "",
+    menuClass: "",
+    page: "blog",
 
-  //   dropDownItems: [
-  //     {
-  //       name: "Blog Grid",
-  //       routerPath: "/blog-grid",
-  //     },
-  //     {
-  //       name: "Blog Masonry",
-  //       routerPath: "/blog-masonry",
-  //     },
-  //     {
-  //       name: "Blog Sidebar",
-  //       routerPath: "/blog-sidebar",
-  //     },
-  //     {
-  //       name: "Blog Details",
-  //       routerPath: "/blog/2",
-  //     },
-  //     {
-  //       name: "Blog Details Sidebar",
-  //       routerPath: "/blog-details-sidebar/7",
-  //     },
-  //   ],
-  // },
-  // {
-  //   name: "Pages",
-  //   activeClass: "",
-  //   page: "others",
-  //   menuClass: "two-columns",
-  //   dropDownItems: [
-  //     {
-  //       name: "About Us",
-  //       routerPath: "/about-us",
-  //     },
-  //     {
-  //       name: "About Me",
-  //       routerPath: "/about-me",
-  //     },
-  //     {
-  //       name: "Services",
-  //       routerPath: "/service",
-  //     },
-  //     {
-  //       name: "Service Details",
-  //       routerPath: "/service/5",
-  //     },
-  //     {
-  //       name: "Pricing",
-  //       routerPath: "/pricing",
-  //     },
-  //     {
-  //       name: "Team",
-  //       routerPath: "/team",
-  //     },
-  //     {
-  //       name: "FAQ",
-  //       routerPath: "/faq",
-  //     },
-  //     {
-  //       name: "Contact",
-  //       routerPath: "/contact",
-  //     },
-  //     {
-  //       name: "Page 404",
-  //       routerPath: "/404",
-  //     },
-  //     {
-  //       name: "Coming Soon",
-  //       routerPath: "/coming-soon",
-  //     },
-  //   ],
-  // },
+    //   dropDownItems: [
+    //     {
+    //       name: "Blog Grid",
+    //       routerPath: "/blog-grid",
+    //     },
+    //     {
+    //       name: "Blog Masonry",
+    //       routerPath: "/blog-masonry",
+    //     },
+    //     {
+    //       name: "Blog Sidebar",
+    //       routerPath: "/blog-sidebar",
+    //     },
+    //     {
+    //       name: "Blog Details",
+    //       routerPath: "/blog/2",
+    //     },
+    //     {
+    //       name: "Blog Details Sidebar",
+    //       routerPath: "/blog-details-sidebar/7",
+    //     },
+    //   ],
+  },
+  {
+    name: "Vanguardia",
+    activeClass: "",
+    page: "others",
+    menuClass: "two-columns",
+    //   dropDownItems: [
+    //     {
+    //       name: "About Us",
+    //       routerPath: "/about-us",
+    //     },
+    //     {
+    //       name: "About Me",
+    //       routerPath: "/about-me",
+    //     },
+    //     {
+    //       name: "Services",
+    //       routerPath: "/service",
+    //     },
+    //     {
+    //       name: "Service Details",
+    //       routerPath: "/service/5",
+    //     },
+    //     {
+    //       name: "Pricing",
+    //       routerPath: "/pricing",
+    //     },
+    //     {
+    //       name: "Team",
+    //       routerPath: "/team",
+    //     },
+    //     {
+    //       name: "FAQ",
+    //       routerPath: "/faq",
+    //     },
+    //     {
+    //       name: "Contact",
+    //       routerPath: "/contact",
+    //     },
+    //     {
+    //       name: "Page 404",
+    //       routerPath: "/404",
+    //     },
+    //     {
+    //       name: "Coming Soon",
+    //       routerPath: "/coming-soon",
+    //     },
+    //   ],
+  },
+  {
+    name: "Contacto",
+    activeClass: "",
+    page: "others",
+    menuClass: "two-columns",
+  },
 ];
+
+
 
 const DropdownMenu = () => {
   let currentPage = "";
@@ -168,17 +176,51 @@ const DropdownMenu = () => {
     }
   }
 
+  const inicioHome = () => {
+    const portfolioSection = document.getElementById("inicio");
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const scrollToPortfolio = () => {
+    const portfolioSection = document.getElementById("portfolio-section");
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+  const scrollToBeneficios = () => {
+    const beneficiosSection = document.getElementById("beneficios");
+    if (beneficiosSection) {
+      beneficiosSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToVanguardia = () => {
+    const vanguardiaSection = document.getElementById("vanguardia");
+    if (vanguardiaSection) {
+      vanguardiaSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+
+  const scrollToContacto = () => {
+    const contactoSection = document.getElementById("footer");
+    if (contactoSection) {
+      contactoSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <ul className="sf-menu">
       {menuContent.map((item, i) => (
         <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
-          <a href="#" className={item.activeClass}>
+          <a href={`#${item.name}-section`} className={item.activeClass} onClick={item.name === "Solución" ? scrollToPortfolio : item.name === "Beneficios" ? scrollToBeneficios : item.name === "Vanguardia" ? scrollToVanguardia : item.name === "Inicio" ? inicioHome : item.name === "Contacto" ? scrollToContacto : null}>
             <span className={item.page == currentPage ? "active-page" : ""}>
               {item.name}
             </span>
           </a>
 
-          <ul className="sub-menu mega">
+          {/* <ul className="sub-menu mega">
             {item.dropDownItems.map((val, i) => (
               <li key={i}>
                 <Link href={val.routerPath}>
@@ -191,7 +233,7 @@ const DropdownMenu = () => {
                 </Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </li>
       ))}
     </ul>
