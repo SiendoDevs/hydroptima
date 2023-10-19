@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const menuContent = [
   {
-    name: "Home",
+    name: "Inicio",
     activeClass: "sf-with-ul",
     page: "home",
     menuClass: "two-columns current-menu-item",
