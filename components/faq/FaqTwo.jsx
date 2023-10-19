@@ -98,7 +98,7 @@ const FaqTwo = () => {
             className="ptf-spacer"
             style={{ "--ptf-xxl": "5.625rem" }}
           ></div>
-          <div>
+          {/* <div>
             <div style={{ float: 'left', marginRight: '15px' }}>
               <img src="/assets/img/imgs-de-la-marca/HYD-44-01.jpg" alt="" />
             </div>
@@ -106,7 +106,7 @@ const FaqTwo = () => {
               <img src="/assets/img/imgs-de-la-marca/HYD-44-02.jpg" alt="" />
             </div>
             <div style={{ clear: 'both' }}></div>
-          </div>
+          </div> */}
           <div
             className="ptf-spacer"
             style={{ "--ptf-xxl": "2.625rem" }}

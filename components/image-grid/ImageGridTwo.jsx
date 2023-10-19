@@ -6,13 +6,13 @@ import Image from "next/image";
 
 const imageList = [
   {
-    img: "/assets/img/blog/single-post/content-image-1.png",
+    img: "/assets/img/imgs-de-la-marca/hydroptima-tubo1.jpg",
     delayAnimation: "0",
     imageOwner: "@element5digital",
     link: "https://element5digital.com/",
   },
   {
-    img: "/assets/img/blog/single-post/content-image-2.png",
+    img: "/assets/img/imgs-de-la-marca/hydroptima-tubo2.jpg",
     delayAnimation: "100",
     imageOwner: "@insideweather",
     link: "https://insideweather.com/",
@@ -36,13 +36,13 @@ const ImageGridTwo = () => {
                 <Item
                   original={val.img}
                   thumbnail={val.img}
-                  width={416}
-                  height={335}
+                  width={745}
+                  height={600}
                 >
                   {({ ref, open }) => (
                     <Image
-                    width={1200}
-                    height={1200}
+                    width={745}
+                    height={600}
                     style={{width : '100%' , height: '100%'}}
                       src={val.img}
                       alt="service"
@@ -54,12 +54,12 @@ const ImageGridTwo = () => {
                 </Item>
               </div>
               {/* End  .ptf-simple-image */}
-              <div className="ptf-simple-image-caption">
+              {/* <div className="ptf-simple-image-caption">
                 Image by{" "}
                 <a href={val.link} target="_blank" rel="noopener noreferrer">
                   {val.imageOwner}
                 </a>
-              </div>
+              </div> */}
               {/* End .ptf-simple-image-caption */}
             </div>
           </div>

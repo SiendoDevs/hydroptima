@@ -157,10 +157,11 @@
   padding: 3.5px;
 }
 .pro-sidebar .pro-menu a {
-  color: var(--ptf-color-3);
-  font-size: 16px;
+  color: var(--ptf-accent-1);
+  font-weight: 700;
+  font-size: 32px;
   &:hover {
-    color: #000;
+    color: var(--ptf-accent-5);
     padding-left: 5px;
   }
 }
