@@ -29,16 +29,14 @@ const Faq = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="large-heading">FAQs</h2>
+                  <h2 className="large-heading">Vanguardia</h2>
                   {/* <!--Spacer--> */}
                   <div
                     className="ptf-spacer"
                     style={{ "--ptf-xxl": "2.5rem" }}
                   ></div>
                   <p className="fz-18">
-                    Here are the frequently asked questions that we have
-                    compiled to help you find the answers to the problems you
-                    are wondering.
+                    Nuestra tecnología avanzada elimina el sarro sin sal, electricidad ni mantenimiento constante, protegiendo tus cañerías y electrodomésticos.
                   </p>
                 </div>
               </div>
@@ -51,6 +49,7 @@ const Faq = () => {
           ></div>
           <FaqTwo />
         </div>
+
       </div>
 
       {/*=============================================
