@@ -18,7 +18,7 @@ export const approachContent = [
   {
     id: 3,
     subTitle: "TRES",
-    title: "Espacio e instalación",
+    title: "Instalación",
     descriptions: `El diseño compacto de nuestro sistema ocupa un espacio mínimo en tu hogar. Además, es altamente adaptable y puede instalarse tanto en el interior como en el exterior de tu vivienda, brindándote flexibilidad en su colocación de acuerdo a tus necesidades y preferencias.`,
     delayAnimation: "200",
   },
@@ -39,7 +39,7 @@ export const approachContent = [
   {
     id: 6,
     subTitle: "SEIS",
-    title: "Composición química",
+    title: "Sin químicos",
     descriptions: `Nuestro sistema es completamente libre de sal y resina. Además, no altera la composición química del agua. Esto garantiza que el agua que utilizas en tu hogar sea segura y no contenga químicos dañinos, preservando su calidad y pureza.`,
     delayAnimation: "500",
   },
@@ -79,28 +79,28 @@ export const approachContenttwo = [
 export const serviceContent = [
   {
     id: 11,
-    icon: "lnil lnil-cup",
+    icon: "lnil lnil-air-flow",
     titlePart1: "ENTRADA A LA",
     titlePart2: "CAMARA",
     descriptions: ` El agua dura entra en una cámara de acero inoxidable.`,
   },
   {
     id: 12,
-    icon: "lnil lnil-website-rank",
+    icon: "lnil lnil-molecule-alt",
     titlePart1: "TRANSFORMACIÓN",
     titlePart2: "MINERAL",
     descriptions: ` La estructura de minerales cambia de "Calcita" a "Aragonita", reduciendo la acumulación de sarro en superficies en contacto con el agua.`,
   },
   {
     id: 13,
-    icon: "lnil lnil-3d",
+    icon: "lnil lnil-unlink",
     titlePart1: "ELIMINACIÓN DE",
     titlePart2: "ESCAMAS",
     descriptions: ` Los minerales en el agua pierden su capacidad para formar escamas debido a cambios en su disposición molecular.`,
   },
   {
     id: 14,
-    icon: "lnil lnil-video-camera-alt-1",
+    icon: "lnil lnil-microscope",
     titlePart1: "MINERALES",
     titlePart2: "INACTIVOS",
     descriptions: ` Los minerales "duros" se convierten en partículas microscópicas inactivas, evitando que se adhieran a las superficies y evitando la acumulación de sarro.`,

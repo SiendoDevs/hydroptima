@@ -14,7 +14,7 @@ const counterUpContent = [
   },
   {
     startCount: "0",
-    endCount: "4750",
+    endCount: "1238",
     metaText1: "Clientes",
     metaText2: "satisfechos",
     animationDelay: "100",
@@ -28,7 +28,7 @@ const counterUpContent = [
   },
   {
     startCount: "0",
-    endCount: "4398",
+    endCount: "1876",
     metaText1: "Proyectos completados",
     metaText2: "en 15 paises",
     animationDelay: "300",
