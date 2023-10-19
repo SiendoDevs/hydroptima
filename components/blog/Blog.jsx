@@ -39,11 +39,11 @@ const Blog = () => {
                     {/* <span className="date">{val.date}</span> */}
                   </div>
                   <h3 className="ptf-post__title">
-                    <Link
+                    {/* <Link
                       href={`/blog/${val.id}`}
                     >
-                      {val.title}
-                    </Link>
+                    </Link> */}
+                    {val.title}
                   </h3>
                 </header>
                 <div className="ptf-post__excerpt">

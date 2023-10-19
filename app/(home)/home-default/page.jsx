@@ -247,6 +247,7 @@ const HomeDefault = () => {
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="0"
+                      style={{ display: "flex", justifyContent: "flex-end" }}
                     >
                       <Image
                         width={1200}
@@ -257,6 +258,7 @@ const HomeDefault = () => {
                         loading="lazy"
                       />
                     </div>
+
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"

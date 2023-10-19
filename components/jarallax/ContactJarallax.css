@@ -1,6 +1,7 @@
 .background-container {
-    background-image: url('../../public/assets/img/imgs-de-la-marca/HYD-43.jpg');
-    background-size: 100% 100%;
+    background-image: url('../../public/assets/img/imgs-de-la-marca/HYD-43_00.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 400px;
 }
