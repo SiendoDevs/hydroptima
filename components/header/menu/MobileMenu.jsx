@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -168,22 +168,25 @@ const menuContent = [
   },
 ];
 
-const MobileMenu = () => {
+const MobileMenu = ({setCloseMenu}) => {
   let currentPage = "";
   const pathname = usePathname();
 
   currentPage = pathname.split("-")[0].split("/")[1];
+  const [click1, setClick1] = useState(true);
+  const handleClick1 = () => setClick1(!click1);
 
   if (
-    currentPage !== "works" &&
-    currentPage !== "blog" &&
-    currentPage !== "home"
+    currentPage !== "Contacto" &&
+    currentPage !== "Solución" &&
+    currentPage !== "Inicio"
   ) {
     currentPage = "others";
   }
   // titleStyle={item.page == currentPage ? {color: '#fa4529'}:''}
   const inicioHome = (e) => {
     e.preventDefault();
+    setCloseMenu();
     const portfolioSection = document.getElementById("inicio");
     if (portfolioSection) {
       portfolioSection.scrollIntoView({ behavior: "smooth" });
@@ -191,6 +194,7 @@ const MobileMenu = () => {
   };
   const scrollToPortfolio = (e) => {
     e.preventDefault();
+    setCloseMenu();
     const portfolioSection = document.getElementById("portfolio-section");
     if (portfolioSection) {
       portfolioSection.scrollIntoView({ behavior: "smooth" });
@@ -198,6 +202,7 @@ const MobileMenu = () => {
   };
   const scrollToBeneficios = (e) => {
     e.preventDefault();
+    setCloseMenu();
     const beneficiosSection = document.getElementById("beneficios");
     if (beneficiosSection) {
       beneficiosSection.scrollIntoView({ behavior: "smooth" });
@@ -206,6 +211,7 @@ const MobileMenu = () => {
 
   const scrollToVanguardia = (e) => {
     e.preventDefault();
+    setCloseMenu();
     const vanguardiaSection = document.getElementById("vanguardia");
     if (vanguardiaSection) {
       vanguardiaSection.scrollIntoView({ behavior: "smooth" });
@@ -215,6 +221,7 @@ const MobileMenu = () => {
 
   const scrollToContacto = (e) => {
     e.preventDefault();
+    setCloseMenu();
     const contactoSection = document.getElementById("footer");
     if (contactoSection) {
       contactoSection.scrollIntoView({ behavior: "smooth" });
