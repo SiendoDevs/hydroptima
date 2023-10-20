@@ -100,7 +100,7 @@ const HomeDefault = () => {
                         {/* <!--Button--> */}
                         <a
                           className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-                          href="https://api.whatsapp.com/send?phone=5491130669655"
+                          href="https://www.youtube.com/"
                           target="_blank"
                         >
                           Ver video
@@ -271,7 +271,7 @@ const HomeDefault = () => {
                       <h2 style={{ paddingTop: "35px" }}>Eficacia Pura</h2>
                     </div>
                     <div className="ptf-spacer" style={{ '--ptf-xxl': '2.5rem' }}></div>
-                    <p className="fz-24">Experimenta la versatilidad del descalcificador Hydroptima y disfruta de la excelencia, tanto en tu hogar como en proyectos de construcción y diseño. Nuestra innovadora tecnología, que no depende de sal o electricidad, preserva la integridad de las cañerías y electrodomésticos. Olvídate de las preocupaciones por el sarro y asegura agua pura y espacios radiantes. ¡La elección definitiva para el confort de todos tus proyectos!</p>
+                    <p className="fz-24">Experimenta la versatilidad del descalcificador Hydroptima y disfruta de la excelencia, tanto en tu hogar como en proyectos de construcción y diseño. Nuestra innovadora tecnología, que no depende de sal o electricidad, preserva la integridad de las cañerías y electrodomésticos.Olvídate de las preocupaciones por el sarro y asegura agua pura y espacios radiantes. ¡La elección definitiva para el confort de todos tus proyectos!</p>
                     <div className="ptf-spacer" style={{ '--ptf-xxl': '10rem', '--ptf-md': '5rem' }}></div>
                   </div>
                 </div>
