@@ -20,7 +20,8 @@ import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Home Default hydroptima|| Moonex Portfolio and Agency NextJS Template",
+  title: "Descalcificador Hydroptima || Agua Pura y Hogar Impecable",
+  description: "Experimenta la magia del descalcificador Hydroptima, una solución innovadora que garantiza agua pura y un hogar sin preocupaciones de sarro. Descubre cómo nuestra tecnología, sin sal ni electricidad, protege tus cañerías y electrodomésticos. Perfecto para hogares y proyectos de construcción. ¡La elección definitiva para tu confort y calidad del agua!"
 };
 
 const HomeDefault = () => {
@@ -62,6 +63,10 @@ const HomeDefault = () => {
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "1rem", "--ptf-md": "4rem" }}
               ></div>
               <div className="container-xxl">
                 <div className="row">
@@ -134,7 +139,6 @@ const HomeDefault = () => {
                 </div>
               </div>
             </div>
-
             {
               /* <section>
                 <div className="container-xxl">
@@ -196,8 +200,6 @@ const HomeDefault = () => {
               ></div>
             </section> */
             }
-
-
             {/*=============================================
                 Start Our Approach Section
               ============================================== */}
@@ -223,6 +225,10 @@ const HomeDefault = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "1rem", "--ptf-md": "4rem" }}
+                  ></div>
                   <h2 className="h1 large-heading">Beneficios</h2>
                 </div>
                 {/* <!--Spacer--> */}
@@ -254,27 +260,20 @@ const HomeDefault = () => {
               </div>
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "2.5rem", "--ptf-md": " 2rem" }}
               ></div>
-
-              <div class="container-xxl">
-                <div class="row">
-                  <div class="col">
+              <div className="container-xxl">
+                <div className="row">
+                  <div className="col-lg-6 order-lg-1">
                     <img src="/assets/img/imgs-de-la-marca/hydroptima-tubo1.jpg" alt="" />
                   </div>
-                  <div class="col">
+                  <div className="col-lg-6 order-lg-2">
                     <div className="ptf-faq__category">
-                      <h2>Lorem ipsum</h2>
+                      <h2 style={{ paddingTop: "35px" }}>Eficacia Pura</h2>
                     </div>
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "2.5rem" }}
-                    ></div>
-                    <p className="fz-24">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur ea id doloremque accusamus alias dolorem. Distinctio cumque explicabo porro eos provident quod qui, velit atque neque similique, temporibus veniam.</p>
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-                    ></div>
+                    <div className="ptf-spacer" style={{ '--ptf-xxl': '2.5rem' }}></div>
+                    <p className="fz-24">Experimenta la versatilidad del descalcificador Hydroptima y disfruta de la excelencia, tanto en tu hogar como en proyectos de construcción y diseño. Nuestra innovadora tecnología, que no depende de sal o electricidad, preserva la integridad de las cañerías y electrodomésticos. Olvídate de las preocupaciones por el sarro y asegura agua pura y espacios radiantes. ¡La elección definitiva para el confort de todos tus proyectos!</p>
+                    <div className="ptf-spacer" style={{ '--ptf-xxl': '10rem', '--ptf-md': '5rem' }}></div>
                   </div>
                 </div>
               </div>
@@ -314,7 +313,7 @@ const HomeDefault = () => {
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="0"
-                      style={{ display: "flex", justifyContent: "flex-end" }}
+                      style={{ display: "flex", justifyContent: "flex-start" }}
                     >
                       <Image
                         width={1200}
@@ -412,6 +411,10 @@ const HomeDefault = () => {
 
         {/* <!--Footer--> */}
         <footer className="ptf-footer ptf-footer--style-1" id="footer">
+          <div
+            className="ptf-spacer"
+            style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
+          ></div>
           <div className="container-xxl">
             <div className="ptf-footer__top">
               <Footer />
