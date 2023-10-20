@@ -71,11 +71,13 @@
   .ptf-offcanvas-menu-icon {
     margin-left: px2rem(40px);
   }
-  .ptf-nav--default .sf-menu > li:last-child.two-columns > ul.sub-menu {
+
+  .ptf-nav--default .sf-menu>li:last-child.two-columns>ul.sub-menu {
     left: auto;
     right: 0;
   }
-  .ptf-nav--default .sf-menu > li > ul.sub-menu {
+
+  .ptf-nav--default .sf-menu>li>ul.sub-menu {
     box-shadow: 0 0 30px #eee;
   }
 }
@@ -133,7 +135,8 @@
       display: inline-flex;
     }
   }
-  .ptf-nav--default .sf-menu > li:last-child.two-columns > ul.sub-menu {
+
+  .ptf-nav--default .sf-menu>li:last-child.two-columns>ul.sub-menu {
     left: auto;
     right: 0;
   }
@@ -160,6 +163,7 @@
   .ptf-language-switcher {
     margin-left: auto;
   }
+
   .ptf-navbar {
     box-shadow: none;
   }
@@ -179,6 +183,7 @@
     display: flex;
     justify-content: space-around;
     flex: auto;
+
     @media (max-width: 992px) {
       justify-content: flex-start;
     }
@@ -207,6 +212,7 @@
     display: flex;
     justify-content: flex-end;
     flex: 1;
+
     @media (max-width: 992px) {
       margin-right: 8%;
     }
@@ -269,7 +275,7 @@
     font-size: 0;
     flex-shrink: 0;
 
-    > li {
+    >li {
       display: inline-flex;
       align-items: center;
       float: none;
@@ -284,6 +290,7 @@
       &:last-of-type {
         padding-right: 0;
       }
+
       &:hover {
         ul.sub-menu {
           opacity: 1;
@@ -293,7 +300,7 @@
         }
       }
 
-      > a {
+      >a {
         font-size: px2rem(16px);
         font-weight: 700;
         line-height: 1;
@@ -303,7 +310,7 @@
           color: var(--ptf-color-1);
         }
 
-        > span {
+        >span {
           position: relative;
 
           &::after {
@@ -329,22 +336,23 @@
         }
       }
 
-      &:hover > a,
-      &.sfHover > a,
-      &.current-menu-ancestor > a {
+      &:hover>a,
+      &.sfHover>a,
+      &.current-menu-ancestor>a {
         color: var(--ptf-accent-1);
 
         .ptf-header--style-5 & {
           color: var(--ptf-color-white);
         }
 
-        > span::after {
+        >span::after {
           opacity: 1;
         }
       }
 
-      &.two-columns > ul.sub-menu {
+      &.two-columns>ul.sub-menu {
         column-count: 2;
+
         &.mega {
           width: 440px;
         }
@@ -408,9 +416,9 @@
           white-space: nowrap;
         }
 
-        &:hover > a,
-        &.current-menu-ancestor > a,
-        &.sfHover > a {
+        &:hover>a,
+        &.current-menu-ancestor>a,
+        &.sfHover>a {
           color: var(--ptf-accent-1);
 
           .ptf-header--style-5 & {
@@ -421,6 +429,7 @@
     }
   }
 }
+
 .ptf-header--style-7 .ptf-nav--default .sf-menu ul.sub-menu {
   top: 80%;
   box-shadow: 0 0 30px #eee;

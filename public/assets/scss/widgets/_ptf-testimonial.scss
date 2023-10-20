@@ -25,6 +25,12 @@
     a {
       color: #09f;
     }
+
+    @media (max-width: 768px) {
+      /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+      font-size: px2rem(24px);
+      /* Elige el tamaño de fuente que desees */
+    }
   }
 
   &__meta {
@@ -113,12 +119,15 @@
     margin-top: px2rem(5px);
   }
 }
+
 .space-80 {
   padding: 0 80px;
+
   @media (max-width: 767px) {
     padding: 0;
   }
 }
+
 .testimonial-pagination--style-bottom {
   .slick-dots {
     bottom: -60px;

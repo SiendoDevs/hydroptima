@@ -12,7 +12,10 @@ const Faq = () => {
     <div id="vanguardia">
       {/* <HeaderDefault /> */}
       {/* End Header */}
-
+      <div
+        className="ptf-spacer"
+        style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
+      ></div>
       <div className="ptf-main">
         <div className="ptf-page ptf-page--faq">
           {/* <!--Spacer--> */}
