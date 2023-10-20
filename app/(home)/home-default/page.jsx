@@ -15,6 +15,7 @@ import ServiceOne from "../../../components/service/ServiceOne";
 import Testimonial from "../../../components/testimonial/Testimonial";
 import Faq from "@/app/(others-pages)/faq/page";
 import ImageGridTwo from "@/components/image-grid/ImageGridTwo";
+import ImageGridFive from "@/components/image-grid/ImageGridFive"
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import Image from "next/image";
 
@@ -23,7 +24,7 @@ export const metadata = {
 };
 
 const HomeDefault = () => {
-  
+
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--home-default">
       {/* End Page SEO Content */}
@@ -83,6 +84,24 @@ const HomeDefault = () => {
                       <p className="fz-18">
                         Nuestro innovador sistema utiliza un proceso eficiente y sin sal para combatir el agua dura.
                       </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem" }}
+                      ></div>
+                      <div
+                        className="ptf-animated-block"
+                        data-aos="fade"
+                        data-aos-delay="0"
+                      >
+                        {/* <!--Button--> */}
+                        <a
+                          className="ptf-btn ptf-btn--primary ptf-btn--inversed"
+                          href="https://api.whatsapp.com/send?phone=5491130669655"
+                          target="_blank"
+                        >
+                          Ver video
+                        </a>
+                      </div>
                     </div>
                     {/* <!--Spacer--> */}
                     <div
@@ -108,7 +127,14 @@ const HomeDefault = () => {
             {/*=============================================
                 Start Portfolio Section
               ============================================== */}
-            <section></section>
+            <div className="container-fluid" style={{ padding: 0, position: "relative" }}>
+              <div>
+                <div>
+                  <ContactJarallax />
+                </div>
+              </div>
+            </div>
+
             {
               /* <section>
                 <div className="container-xxl">
@@ -221,10 +247,36 @@ const HomeDefault = () => {
               <div className="container-xxl">
                 <ImageGridTwo />
                 <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                ></div>
+                <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
+              </div>
+              <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
-                <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
+
+              <div class="container-xxl">
+                <div class="row">
+                  <div class="col">
+                    <img src="/assets/img/imgs-de-la-marca/hydroptima-tubo1.jpg" alt="" />
+                  </div>
+                  <div class="col">
+                    <div className="ptf-faq__category">
+                      <h2>Lorem ipsum</h2>
+                    </div>
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "2.5rem" }}
+                    ></div>
+                    <p className="fz-24">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tenetur ea id doloremque accusamus alias dolorem. Distinctio cumque explicabo porro eos provident quod qui, velit atque neque similique, temporibus veniam.</p>
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                    ></div>
+                  </div>
+                </div>
               </div>
               <div
                 className="ptf-spacer"

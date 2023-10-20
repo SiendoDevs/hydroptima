@@ -1,7 +1,13 @@
-/* .background-container {
-    background-color: var(--ptf-accent-1);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 450px;
-} */
+ .background-container {
+     background-image: url(../../public/assets/img/imgs-de-la-marca/agua-divisor.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom;
+     object-position: bottom;
+     height: 550px;
+ }
+
+ .texto{
+    justify-content: center center;
+    object-position: center center;
+ }
