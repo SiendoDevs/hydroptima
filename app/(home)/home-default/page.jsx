@@ -23,6 +23,7 @@ export const metadata = {
 };
 
 const HomeDefault = () => {
+  
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--home-default">
       {/* End Page SEO Content */}

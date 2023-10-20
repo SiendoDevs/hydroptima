@@ -125,7 +125,7 @@ const HeaderHomeDefault = () => {
         </div>
         {/* End .ptf-offcanvas-menu__header */}
 
-        <MobileMenu />
+        <MobileMenu setCloseMenu={handleClick1}/>
       </div>
       {/* End sidebar menu */}
     </div>
