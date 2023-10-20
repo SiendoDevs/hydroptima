@@ -21,7 +21,7 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Descalcificador Hydroptima || Agua Pura y Hogar Impecable",
-  description: "Experimenta la magia del descalcificador Hydroptima, una solución innovadora que garantiza agua pura y un hogar sin preocupaciones de sarro. Descubre cómo nuestra tecnología, sin sal ni electricidad, protege tus cañerías y electrodomésticos. Perfecto para hogares y proyectos de construcción. ¡La elección definitiva para tu confort y calidad del agua!"
+  // description: "Experimenta la magia del descalcificador Hydroptima, una solución innovadora que garantiza agua pura y un hogar sin preocupaciones de sarro. Descubre cómo nuestra tecnología, sin sal ni electricidad, protege tus cañerías y electrodomésticos. Perfecto para hogares y proyectos de construcción. ¡La elección definitiva para tu confort y calidad del agua!"
 };
 
 const HomeDefault = () => {
