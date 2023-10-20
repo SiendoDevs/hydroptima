@@ -6,13 +6,13 @@ import Image from "next/image";
 
 const imageList = [
   {
-    img: "/assets/img/imgs-de-la-marca/hydroptima-tubo1.jpg",
+    img: "/assets/img/imgs-de-la-marca/hydroptima-vaso.jpg",
     delayAnimation: "0",
     imageOwner: "@element5digital",
     link: "https://element5digital.com/",
   },
   {
-    img: "/assets/img/imgs-de-la-marca/hydroptima-tubo2.jpg",
+    img: "/assets/img/imgs-de-la-marca/hydroptima-agua.jpg",
     delayAnimation: "100",
     imageOwner: "@insideweather",
     link: "https://insideweather.com/",

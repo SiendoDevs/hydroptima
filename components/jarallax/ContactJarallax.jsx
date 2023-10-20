@@ -7,16 +7,14 @@ import "./ContactJarallax.css"
 const ContactJarallax = () => {
   return (
     <div className="text-center background-container">
-      <div className="d-inline-flex text-start">
+      <div className="d-inline-flex text-start align-items-center justify-content-center h-100">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
-          <div className="fz-36">Agua más pura</div>
+          <div className="fz-36 fw-bold">Agua más pura</div>
           {/* <!--Spacer--> */}
           <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
-          <div className="fz-120 fz-90--md --ptf-color-white fw-bold lh-1p1">
-            <Link href="/contact" className="ptf-filled-link">
-              Contactanos
-            </Link>
+          <div className="fz-120 fz-90--md --ptf-color-white fw-bold lh-1p1 ptf-filled-link">
+            0% Sarro
           </div>
           <div className="fz-80 --ptf-color-white">
             <svg
@@ -33,5 +31,6 @@ const ContactJarallax = () => {
     </div>
   );
 };
+
 
 export default ContactJarallax;
