@@ -20,7 +20,8 @@ import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Home Default hydroptima|| Moonex Portfolio and Agency NextJS Template",
+  title: "Hydroptima - La solución al sarro",
+  description: "La solución al sarro"
 };
 
 const HomeDefault = () => {
