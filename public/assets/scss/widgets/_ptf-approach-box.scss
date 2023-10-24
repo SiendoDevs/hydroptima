@@ -1,0 +1,35 @@
+/* WIDGET: APPROACH BOX
+-------------------------------------------- */
+
+.ptf-approach-box {
+	--ptf-subtitle-color: var(--ptf-color-white);;
+	--ptf-title-color: var(--ptf-color-black);
+	--ptf-content-color: var(--ptf-color-white);
+}
+
+.ptf-approach-box {
+	padding-top: px2rem(60px);
+
+	border-top: 2px solid var(--ptf-color-white);
+
+	&__subtitle {
+		text-transform: uppercase;
+		color: var(--ptf-subtitle-color);
+		font-size: px2rem(20px);
+		font-weight: 700;
+	}
+
+	&__title {
+		margin-top: px2rem(5px);
+
+		color: var(--ptf-accent-5);
+	}
+
+	&__content {
+		margin-top: px2rem(40px);
+
+		color: var(--ptf-content-color);
+		font-size: px2rem(18px);
+	}
+
+}
