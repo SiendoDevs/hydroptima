@@ -167,13 +167,14 @@ const DropdownMenu = () => {
   if (pathname.split("/")[1].trim() != "home-default") {
     currentPage = pathname.split("-")[0].split("/")[1];
 
-    if (
-      currentPage !== "works" &&
-      currentPage !== "blog" &&
-      currentPage !== "home"
-    ) {
-      currentPage = "others";
-    }
+    // if (
+    //   currentPage !== "works" &&
+    //   currentPage !== "blog" &&
+    //   currentPage !== "home" &&
+    //   currentPage !== "Vanguardia"
+    // ) {
+    //   currentPage = "others";
+    // }
   }
 
   const inicioHome = () => {
@@ -214,7 +215,7 @@ const DropdownMenu = () => {
     <ul className="sf-menu">
       {menuContent.map((item, i) => (
         <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
-          <a href={`#${item.name}-section`} className={item.activeClass} onClick={item.name === "Solución" ? scrollToPortfolio : item.name === "Beneficios" ? scrollToBeneficios : item.name === "Vanguardia" ? scrollToVanguardia : item.name === "Inicio" ? inicioHome : item.name === "Contacto" ? scrollToContacto : null}>
+          <a className={item.activeClass} onClick={item.name === "Solución" ? scrollToPortfolio : item.name === "Beneficios" ? scrollToBeneficios : item.name === "Vanguardia" ? scrollToVanguardia : item.name === "Inicio" ? inicioHome : item.name === "Contacto" ? scrollToContacto : null}>
             <span className={item.page == currentPage ? "active-page" : ""}>
               {item.name}
             </span>
