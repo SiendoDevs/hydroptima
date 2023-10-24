@@ -21,6 +21,7 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Hydroptima - La solución al sarro",
+  description: "La solución al sarro"
 };
 
 const HomeDefault = () => {
