@@ -1,148 +1,126 @@
-import HeaderPreview from "../components/header/HeaderPreview";
-import BlogDemo from "../components/preview/BlogDemo";
-import MainDemo from "../components/preview/MainDemo";
-import PortfolioDemo from "../components/preview/PortfolioDemo";
-import OthersPages from "../components/preview/OthersPages";
+import Link from "next/link";
+
+// import Award from "../../../components/award/Award";
+
+import Blog from "../components/blog/Blog";
+import Brand from "../components/brand/Brand";
+import Counter from "../components/counter/Counter";
+import CopyRight from "../components/footer/copyright/CopyRight";
+import Footer from "../components/footer/Footer";
+import HeaderHomeDefault from "../components/header/HeaderHomeDefault";
+import HeroDefault from "../components/hero/HeroDefault";
+import Portfolio from "../components/portfolio/Portfolio";
+import Approach from "../components/service/Approach";
+import ServiceOne from "../components/service/ServiceOne";
+import Testimonial from "../components/testimonial/Testimonial";
+import Faq from "@/app/(others-pages)/faq/page";
+import ImageGridTwo from "@/components/image-grid/ImageGridTwo";
+// import ImageGridFive from "@/components/image-grid/ImageGridFive"
+import ContactJarallax from "@/components/jarallax/ContactJarallax";
+import Image from "next/image";
 
 export const metadata = {
-  title: "Preview || Moonex Portfolio and Agency NextJS Template",
+  title: "Hydroptima - La solución al sarro",
+  description: "La solución al sarro"
 };
 
-const Preview = () => {
+const HomeDefault = () => {
+
   return (
-    <div className="ptf-site-wrapper animsition">
+    <div className="ptf-site-wrapper animsition  ptf-is--home-default">
+      {/* End Page SEO Content */}
+
+      <HeaderHomeDefault />
+      {/* End Header Default */}
+
       <div className="ptf-site-wrapper__inner">
-        {/* <!--Header--> */}
-        <HeaderPreview />
-        <main className="ptfmain">
-          <article
-            className="ptf-page ptf-page--intro"
-            style={{
-              backgroundImage: `url(${
-                "" + "/assets/img/root/intro/bubble-1.png"
-              })`,
-            }}
-          >
-            <section>
+        <div className="ptf-main">
+          <div className="ptf-page ptf-page--home-default">
+            {/*=============================================
+                Start Hero Section
+              ============================================== */}
+            <section className="has-accent-1-background">
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "15rem" }}
+              ></div>
               <div className="container-xxl">
-                {/* <!--Divider--> */}
-                <div
-                  className="ptf-divider"
-                  style={{
-                    "--ptf-height": "1px",
-                    "--ptf-color": "var(--ptf-color-14)",
-                  }}
-                ></div>
+                <HeroDefault />
               </div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
+              ></div>
             </section>
 
-            <section id="demo">
+            {/*=============================================
+                Start Service Section
+              ============================================== */}
+            <section id="portfolio-section">
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
-
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "1rem", "--ptf-md": "4rem" }}
+              ></div>
               <div className="container-xxl">
                 <div className="row">
-                  <div className="col-xl-8">
+                  <div className="col-lg-3">
                     {/* <!--Animated Block--> */}
                     <div
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1">
-                        Get started with a pre-made website
+                      <h2 className="h2 large-heading">
+                        Nuestra <br />
+                        solución
                       </h2>
+                      {/* <!--Spacer--> */}
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem" }}
+                      ></div>
+                      <p className="fz-18">
+                        Nuestro innovador sistema utiliza un proceso eficiente y sin sal para combatir el agua dura.
+                      </p>
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem" }}
+                      ></div>
+                      <div
+                        className="ptf-animated-block"
+                        data-aos="fade"
+                        data-aos-delay="0"
+                      >
+                        {/* <!--Button--> */}
+                        <a
+                          className="ptf-btn ptf-btn--primary ptf-btn--inversed"
+                          href="https://www.youtube.com/"
+                          target="_blank"
+                        >
+                          Ver video
+                        </a>
+                      </div>
                     </div>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "1.875rem" }}
+                      style={{
+                        "--ptf-lg": "4.375rem",
+                        "--ptf-md": "2.1875rem",
+                      }}
                     ></div>
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="100"
-                    >
-                      <p className="fz-18 has-3-color">
-                        No-clutter demos with only necessasry design elements
-                        for maximum attention to your work.
-                      </p>
-                    </div>
+                  </div>
+                  <div className="col-lg-8 offset-lg-1">
+                    <ServiceOne />
                   </div>
                 </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
-                ></div>
-                <MainDemo />
-              </div>
-
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-            </section>
-
-            <section>
-              <div className="container-xxl">
-                {/* <!--Divider--> */}
-                <div
-                  className="ptf-divider"
-                  style={{
-                    "--ptf-height": "1px",
-                    "--ptf-color": "var(--ptf-color-14)",
-                  }}
-                ></div>
-              </div>
-            </section>
-
-            <section id="portfolio">
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-              ></div>
-              <div className="container-xxl">
-                <div className="row">
-                  <div className="col-xl-8">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1">Practical Project Showcases</h2>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "1.875rem" }}
-                    ></div>
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="100"
-                    >
-                      <p className="fz-18 has-3-color">
-                        Realistic variety of single project & case-study pages
-                        with attention to design detail & functionality.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
-                ></div>
-                <PortfolioDemo />
               </div>
               {/* <!--Spacer--> */}
               <div
@@ -151,63 +129,115 @@ const Preview = () => {
               ></div>
             </section>
 
-            <section id="blog">
+            {/*=============================================
+                Start Portfolio Section
+              ============================================== */}
+            <div className="container-fluid" style={{ padding: 0, position: "relative" }}>
+              <div>
+                <div>
+                  <ContactJarallax />
+                </div>
+              </div>
+            </div>
+            {
+              /* <section>
+                <div className="container-xxl">
+                  <div className="row align-items-center">
+                    <div className="col-12 col-md-9">
+                      {/* <!--Animated Block--> */
+              /* <div
+                className="ptf-animated-block"
+                data-aos="fade"
+                data-aos-delay="0"
+              >
+                <h2 className="h2 large-heading d-inline-flex">
+                  Agua Dura
+                </h2>
+              </div>
+            </div>
+            <div className="col-12 col-md-3 text-md-end">
+              {/* <!--Spacer--> */
+              /* <div
+                className="ptf-spacer"
+                style={{ "--ptf-md": "1.875rem" }}
+              ></div>
+              {/* <!--Animated Block--> */
+              /* <Link
+                className="
+                    ptf-link-with-arrow
+                    fz-18
+                    text-uppercase
+                    fw-semibold
+                    has-black-color
+                    d-none d-lg-inline-flex
+                  "
+                href="/works-grid"
+                style={{ marginLeft: "5.625rem" }}
+              >
+                Detección <i className="lnil lnil-chevron-right"></i>
+              </Link>
+            </div>
+          </div>
+          {/* <!--Spacer--> */
+              /* <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "6.25rem" }}
+              ></div>
+              {/* <!--Animated Block--> */
+              /* <div
+                className="ptf-animated-block"
+                data-aos="fade"
+                data-aos-delay="0"
+              >
+                {/* <!--Content Slider--> */
+              /* <Portfolio />
+            </div>
+          </div>
+          {/* <!--Spacer--> */
+              /* <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "9.5rem" }}
+              ></div>
+            </section> */
+            }
+            {/*=============================================
+                Start Our Approach Section
+              ============================================== */}
+            <section
+              id="beneficios"
+              className="has-accent-1-background"
+              style={{
+                backgroundImage: `url(${"" + "/assets/img/root/service-bubble.png"
+                  })`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "100% calc(100% + 120px)",
+              }}
+            >
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
               <div className="container-xxl">
-                <div className="row">
-                  <div className="col-xl-8">
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="0"
-                    >
-                      <h2 className="h1">Share your insights with Blog</h2>
-                    </div>
-                    {/* <!--Spacer--> */}
-                    <div
-                      className="ptf-spacer"
-                      style={{ "--ptf-xxl": "1.875rem" }}
-                    ></div>
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="100"
-                    >
-                      <p className="fz-18 has-3-color">
-                        Not only help you SEO good, increase the traffic for
-                        website, it’s a place that you share the stories,
-                        insights around design, career or connect with your
-                        fans, your fellows.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
-                ></div>
                 {/* <!--Animated Block--> */}
                 <div
                   className="ptf-animated-block"
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  {/* <!--Content Slider--> */}
-                  <div className="ptf-content-slider swiper-container blog-container">
-                    <div className="swiper-wrapper">
-                      <BlogDemo />
-                    </div>
-                  </div>
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "1rem", "--ptf-md": "4rem" }}
+                  ></div>
+                  <h2 className="h1 large-heading">Beneficios</h2>
                 </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": " 3.75rem" }}
+                ></div>
+                <Approach />
               </div>
-
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
@@ -215,119 +245,188 @@ const Preview = () => {
               ></div>
             </section>
 
-            <section id="pages">
+            {/*=============================================
+                Start Brand and Counterup Section
+              ============================================== */}
+            <section id="vanguardia">
+              <Faq />
+              <div className="container-xxl">
+                <ImageGridTwo />
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                ></div>
+                <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
+              </div>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "2.5rem", "--ptf-md": " 2rem" }}
+              ></div>
+              <div className="container-xxl">
+                <div className="row">
+                  <div className="col-lg-6 order-lg-1">
+                    <img src="/assets/img/imgs-de-la-marca/hydroptima-tubo1.jpg" alt="" />
+                  </div>
+                  <div className="col-lg-6 order-lg-2">
+                    <div className="ptf-faq__category">
+                      <h2 style={{ paddingTop: "35px" }}>Eficacia Pura</h2>
+                    </div>
+                    <div className="ptf-spacer" style={{ '--ptf-xxl': '2.5rem' }}></div>
+                    <p className="fz-24">Experimenta la versatilidad del descalcificador Hydroptima y disfruta de la excelencia, tanto en tu hogar como en proyectos de construcción y diseño. Nuestra innovadora tecnología, que no depende de sal o electricidad, preserva la integridad de las cañerías y electrodomésticos.Olvídate de las preocupaciones por el sarro y asegura agua pura y espacios radiantes. ¡La elección definitiva para el confort de todos tus proyectos!</p>
+                    <div className="ptf-spacer" style={{ '--ptf-xxl': '10rem', '--ptf-md': '5rem' }}></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                <Counter />
+              </div>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "13rem", "--ptf-md": "10rem" }}
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
+            </section>
 
+            {/*=============================================
+                Start Jaralax Testimonial Section
+              ============================================== */}
+            <section
+              className="jarallax jarallax-img"
+              style={{
+                backgroundImage: `url("/assets/img/about-us-testimonial-background.jpg")`,
+              }}
+            >
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
+              ></div>
               <div className="container-xxl">
                 <div className="row">
-                  <div className="col-xl-8">
+                  <div className="col-xl-4">
                     {/* <!--Animated Block--> */}
                     <div
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="0"
+                      style={{ display: "flex", justifyContent: "flex-start" }}
                     >
-                      <h2 className="h1">Necessary Others Pages</h2>
+                      <Image
+                        width={1200}
+                        height={1200}
+                        style={{ width: "30%", height: "30%" }}
+                        src="/assets/img/root/quote.png"
+                        alt=""
+                        loading="lazy"
+                      />
                     </div>
+
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "1.875rem" }}
+                      style={{ "--ptf-xl": "3.75rem" }}
                     ></div>
-                    {/* <!--Animated Block--> */}
-                    <div
-                      className="ptf-animated-block"
-                      data-aos="fade"
-                      data-aos-delay="100"
-                    >
-                      <p className="fz-18 has-3-color">
-                        Realistic variety of single project & case-study inner
-                        pages with attention to design detail & functionality.
-                      </p>
-                    </div>
+                  </div>
+                  <div className="col-xl-8">
+                    <Testimonial />
                   </div>
                 </div>
-                {/* End .row */}
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  style={{ "--ptf-xxl": "6.25rem" }}
-                ></div>
-                <OthersPages />
               </div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
+              ></div>
+            </section>
 
+            {/*=============================================
+                Start Award Section
+              ============================================== */}
+
+
+            <section>
+              {/* <!--Spacer--> */}
+              {/* <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div> */}
+            </section>
+
+            <section>
+              <div className="container-xxl">
+                {/* <!--Divider--> */}
+                <div className="ptf-divider"></div>
+              </div>
+            </section>
+
+            <section>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
-            </section>
-          </article>
-        </main>
-      </div>
-
-      {/* <!--Footer--> */}
-      <footer
-        className="ptf-footer ptf-footer--landing"
-        style={{
-          backgroundImage: `url(${"" + "/assets/img/root/intro/bubble-3.png"})`,
-        }}
-      >
-        {/* <!--Spacer--> */}
-        <div
-          className="ptf-spacer"
-          style={{ "--ptf-xxl": "18.125rem", "--ptf-md": "9.0625rem" }}
-        ></div>
-        <div className="container-xxl text-center">
-          <div className="row">
-            <div className="col-xl-6 offset-xl-3">
-              <h2 className="h1">Purchase For Only</h2>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "1.25rem" }}
-              ></div>
-              <div className="ptf-footer__price">
-                <span>$</span>12
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <div
+                    className="row"
+                    style={{
+                      "--bs-gutter-x": "3.75rem",
+                      "--bs-gutter-y": "7.5rem",
+                    }}
+                  >
+                    <Blog />
+                  </div>
+                </div>
               </div>
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "0.625rem" }}
+                style={{ "--ptf-xxl": "11.875rem", "--ptf-md": "5.9375rem" }}
               ></div>
-              {/* <!--Button--> */}
-              <a
-                className="ptf-btn ptf-btn--success"
-                href="https://themeforest.net/item/moonex-nextjs-agency-nextjs-portfolio-template/46179136"
-                target="_blank"
-              >
-                Purchase Now
-              </a>
               {/* <!--Spacer--> */}
+              {/* <ContactJarallax />
               <div
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": " 4.375rem" }}
-              ></div>
-              <p className="fz-18 has-3-color">
-                Limited time offer. The originally price will back after end of{" "}
-                <br />
-                promotion. Don't Miss Out!!!
-              </p>
-            </div>
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div> */}
+            </section>
+
+
+
+            {/*=============================================
+                End Blog Section
+              ============================================== */}
           </div>
         </div>
-        {/* <!--Spacer--> */}
-        <div
-          className="ptf-spacer"
-          style={{ "--ptf-xxl": "16.25rem", "--ptf-md": "8.125rem" }}
-        ></div>
-      </footer>
+        {/* End .ptf-main */}
+
+        {/* <!--Footer--> */}
+        <footer className="ptf-footer ptf-footer--style-1" id="footer">
+          <div
+            className="ptf-spacer"
+            style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
+          ></div>
+          <div className="container-xxl">
+            <div className="ptf-footer__top">
+              <Footer />
+            </div>
+            <div className="ptf-footer__bottom">
+              <CopyRight />
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 };
 
-export default Preview;
+export default HomeDefault;

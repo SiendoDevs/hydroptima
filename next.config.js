@@ -3,12 +3,10 @@ const nextConfig = {
     async redirects() {
         return [
             {
-                source: '/',
-                destination: '/home-default',
+                source: '/home-default',
+                destination: '/',
                 permanent: true,
             },
         ];
     },
 };
-
-module.exports = nextConfig;

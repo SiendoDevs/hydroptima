@@ -145,7 +145,7 @@ const Footer = () => {
               <ul>
                 {Product.map((val, i) => (
                   <li key={i} class="has-accent-1">
-                    <a href={`#${val.itemName}-section`} onClick={val.itemName === "Solución" ? scrollToPortfolio : val.itemName === "Beneficios" ? scrollToBeneficios : val.itemName === "Vanguardia" ? scrollToVanguardia : val.itemName === "Inicio" ? inicioHome : val.itemName === "Contacto" ? scrollToContacto : null}>{val.itemName}</a>
+                    <a onClick={val.itemName === "Solución" ? scrollToPortfolio : val.itemName === "Beneficios" ? scrollToBeneficios : val.itemName === "Vanguardia" ? scrollToVanguardia : val.itemName === "Inicio" ? inicioHome : val.itemName === "Contacto" ? scrollToContacto : null}>{val.itemName}</a>
                   </li>
                 ))}
               </ul>

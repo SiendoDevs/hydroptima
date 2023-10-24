@@ -6,10 +6,16 @@ import Image from "next/image";
 const logo = "/assets/img/imgs-de-la-marca/logo-hydroptima-dark (1).svg";
 
 const CopyRight = () => {
+  const inicioHome = () => {
+    const portfolioSection = document.getElementById("inicio");
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="row align-items-center justify-content-center">
       <div className="col-12 col-md">
-        <a href="#">
+        <a onClick={inicioHome}>
           <Image
             width={1200}
             height={1200}
@@ -26,7 +32,7 @@ const CopyRight = () => {
           <span>
             <a
               class="has-accent-1"
-              href="#"
+              onClick={ inicioHome }
               rel="noopener noreferrer"
               target="_self"
             >
