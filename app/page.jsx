@@ -101,7 +101,7 @@ const HomeDefault = () => {
                         {/* <!--Button--> */}
                         <a
                           className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-                          href="https://www.youtube.com/"
+                          href="https://youtu.be/msxkKI3QOiU?feature=shared"
                           target="_blank"
                         >
                           Ver video
