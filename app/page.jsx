@@ -279,6 +279,7 @@ const HomeDefault = () => {
                 </div>
               </div>
               <div
+                id="Nosotros"
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
@@ -291,6 +292,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
+                      <div className="ptf-spacer" style={{ '--ptf-xxl': '10rem', '--ptf-md': '5rem' }}></div>
                       <h2 className="large-heading">Nosotros</h2>
                       {/* <!--Spacer--> */}
                       <div

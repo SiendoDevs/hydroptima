@@ -49,26 +49,22 @@ export default function ScrollToTop() {
               style={{ width: '17px', height: '17px', filter: "hue-rotate(120deg)", }} src="/assets/img/chevron-w.png" alt="icon" />
           </button>
         </div>
-      )}
+      )},
       {isVisible && (
-        <div className="scroll-topp" onClick={scrollToTop} style={{ bottom: '10px', left: '10px', marginBottom:"30px" }}>
-          <div
-            className="ptf-animated-block"
-            data-aos="fade"
-            data-aos-delay="0"
-          >
-            {/* <!--Button--> */}
-            <a
-              className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-              href="https://wa.me/5491130669655?text=¡Hola, quiero más info sobre Hydroptima!"
-              target="_blank"
-            >
-              Más Info
-              <i className="socicon-whatsapp" style={{ marginLeft: '10px' }}></i>
-            </a>
-          </div>
+        <div>
+          <a
+            href="https://wa.me/5491130669655?text=¡Hola, quiero más info sobre Hydroptima!"
+            className="scroll-top " style={{ bottom: '10px', left: '10px', marginBottom: "10px" }}
+            target="_blank">
+            {/* <i className="socicon-whatsapp" style={{ marginTop: "13px" }}></i> */}
+            <Image
+              width={10}
+              height={10}
+              style={{ width: '25px', height: '25px', filter: "hue-rotate(120deg)", marginTop: "10px"}} src="/assets/img/imgs-de-la-marca/MdiWhatsapp.svg" alt="icon" />
+          </a>
         </div>
       )}
+
 
     </>
   );
