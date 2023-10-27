@@ -253,10 +253,10 @@ const HomeDefault = () => {
               <div className="container-xxl">
                 {/* <ImageGridTwo /> */}
                 <Portfolio />
-                <div
+                {/* <div
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-                ></div>
+                ></div> */}
                 <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
               </div>
               <div
@@ -292,7 +292,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <div className="ptf-spacer" style={{ '--ptf-xxl': '10rem', '--ptf-md': '5rem' }}></div>
+                      <div className="ptf-spacer" style={{ '--ptf-xxl': '5rem', '--ptf-md': '5rem' }}></div>
                       <h2 className="large-heading">Nosotros</h2>
                       {/* <!--Spacer--> */}
                       <div
