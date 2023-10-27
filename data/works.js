@@ -2,34 +2,34 @@
 export const portfolioContent = [
     {
       id:1 ,
-      img: "/assets/img/imgs-de-la-marca/Olor y sabor extraños.jpg",
+      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso.jpg",
       categorie: "",
-      title: "Sabor u olor en el agua",
+      // title: "Sabor u olor en el agua",
     },
     {
       id:2 ,
-      img: "/assets/img/imgs-de-la-marca/machas en cristaleria.jpg",
+      img: "/assets/img/imgs-de-la-marca/hydroptima-agua.jpg",
       categorie: "",
-      title: "En cristalería y platos",
+      // title: "En cristalería y platos",
     },
     {
       id:3 ,
-      img: "/assets/img/imgs-de-la-marca/Perdidad e presion de agua.jpg",
+      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso2.png",
       categorie: "",
-      title: "De presión de agua",
+      // title: "De presión de agua",
     },
     {
       id:4 ,
-      img: "/assets/img/imgs-de-la-marca/machas en superficies.jpg",
+      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso3.png",
       categorie: "",
-      title: "En superficies sanitarias",
+      // title: "En superficies sanitarias",
     },
-    {
-      id: 5,
-      img: "/assets/img/imgs-de-la-marca/Resequedad en la piel.jpg",
-      categorie: "",
-      title: "Causada por minerales",
-    },
+    // {
+    //   id: 5,
+    //   img: "/assets/img/imgs-de-la-marca/Resequedad en la piel.jpg",
+    //   categorie: "",
+    //   title: "Causada por minerales",
+    // },
   ];
 
   export const portfolioContentfive = [

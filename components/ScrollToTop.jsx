@@ -12,11 +12,11 @@ export default function ScrollToTop() {
     if (typeof window !== 'undefined') {
       // Code that depends on the window object
       window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+        top: 0,
+        behavior: "smooth",
+      });
     }
-    
+
   };
 
   useEffect(() => {
@@ -29,13 +29,13 @@ export default function ScrollToTop() {
           setIsVisible(false);
         }
       };
-  
+
       window.addEventListener("scroll", toggleVisibility);
-  
+
       return () => window.removeEventListener("scroll", toggleVisibility);
-      
+
     }
-    
+
   }, []);
 
   return (
@@ -44,12 +44,32 @@ export default function ScrollToTop() {
         <div>
           <button className="scroll-top " onClick={scrollToTop}>
             <Image
-                      width={1200}
-                      height={1200}
-                      style={{width : '17px' , height: '17px',filter: "hue-rotate(120deg)",}} src="/assets/img/chevron-w.png" alt="icon" />
+              width={1200}
+              height={1200}
+              style={{ width: '17px', height: '17px', filter: "hue-rotate(120deg)", }} src="/assets/img/chevron-w.png" alt="icon" />
           </button>
         </div>
       )}
+      {isVisible && (
+        <div className="scroll-topp" onClick={scrollToTop} style={{ bottom: '10px', left: '10px', marginBottom:"30px" }}>
+          <div
+            className="ptf-animated-block"
+            data-aos="fade"
+            data-aos-delay="0"
+          >
+            {/* <!--Button--> */}
+            <a
+              className="ptf-btn ptf-btn--primary ptf-btn--inversed"
+              href="https://wa.me/5491130669655?text=¡Hola, quiero más info sobre Hydroptima!"
+              target="_blank"
+            >
+              Más Info
+              <i className="socicon-whatsapp" style={{ marginLeft: '10px' }}></i>
+            </a>
+          </div>
+        </div>
+      )}
+
     </>
   );
 }
