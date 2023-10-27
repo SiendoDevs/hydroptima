@@ -9,7 +9,7 @@ const ContactJarallax = () => {
     <div className="text-center background-container">
       <div className="d-inline-flex text-start align-items-center justify-content-center h-100">
         {/* <!--Animated Block--> */}
-        <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
+        <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0" style={{ margin: "0px 20px 0px 20px" }}>
           <div className="fz-36 fw-bold" style={{ color: "white" }}>Agua más limpia</div>
           {/* <!--Spacer--> */}
           <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
