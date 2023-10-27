@@ -64,14 +64,14 @@ const HeaderHomeDefault = () => {
                 />
               </Link>
               {/* <!--Navigation--> */}
-              <nav className="ptf-nav ptf-nav--default">
+              {/* <nav className="ptf-nav ptf-nav--default">
                 {/* <!--Menu--> */}
-                <DropdownMenu />
-              </nav>
-              {/* <!--Buttons--> */}
+              {/* <DropdownMenu /> */}
+            {/* </nav>  */}
+            {/* <!--Buttons--> */}
 
-              {/* <!--Navbar Search--> */}
-              {/* <div
+            {/* <!--Navbar Search--> */}
+            {/* <div
                 className={
                   click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
                 }
@@ -88,47 +88,47 @@ const HeaderHomeDefault = () => {
                   <i className="lnir lnir-close"></i>
                 </div>
               </div> */}
-              {/* <!--Offcanvas Menu Toggle--> */}
+            {/* <!--Offcanvas Menu Toggle--> */}
 
-              <div
-                className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle bar right"
-                onClick={handleClick1}
-              >
-                <i className="lnir lnir-menu-alt-5"></i>
-              </div>
-              {/* Toggle bar icon */}
+            <div
+              className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle bar right"
+              onClick={handleClick1}
+            >
+              <i className="lnir lnir-menu-alt-5"></i>
             </div>
+            {/* Toggle bar icon */}
           </div>
         </div>
-      </header>
-      {/* End header */}
+    </div>
+      </header >
+  {/* End header */ }
 
-      <div
-        className={
-          click1 ? "ptf-offcanvas-menu is-open" : "ptf-offcanvas-menu "
-        }
-      >
-        <div className="ptf-offcanvas-menu__header">
-          <div className="ptf-language-switcher">
-            {/* <a className="is-active" href="#">
+  <div div
+className = {
+  click1? "ptf-offcanvas-menu is-open": "ptf-offcanvas-menu "
+}
+  >
+  <div className="ptf-offcanvas-menu__header">
+    <div className="ptf-language-switcher">
+      {/* <a className="is-active" href="#">
               Eng
             </a>
             <a href="#">Fra</a>
             <a href="#">Ger</a> */}
-          </div>
-          <span
-            className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"
-            onClick={handleClick1}
-          >
-            <i className="lnir lnir-close"></i>
-          </span>
-        </div>
-        {/* End .ptf-offcanvas-menu__header */}
-
-        <MobileMenu setCloseMenu={handleClick1}/>
-      </div>
-      {/* End sidebar menu */}
     </div>
+    <span
+      className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"
+      onClick={handleClick1}
+    >
+      <i className="lnir lnir-close"></i>
+    </span>
+  </div>
+{/* End .ptf-offcanvas-menu__header */ }
+
+<MobileMenu setCloseMenu={handleClick1} />
+      </div >
+  {/* End sidebar menu */ }
+    </div >
   );
 };
 

@@ -100,7 +100,7 @@ const Footer = () => {
             ¡Contactate con{" "}
             <Link
               className="has-accent-1 text-decoration-underline"
-              href="https://api.whatsapp.com/send?phone=5491130669655"
+              href="https://wa.me/5491130669655?text=¡Hola, quiero más info sobre Hydroptima!"
               target="_blank"
             >
               nosotros!

@@ -161,6 +161,12 @@ const menuContent = [
     //   ],
   },
   {
+    name: "Nosotros",
+    activeClass: "",
+    page: "others",
+    menuClass: "two-columns",
+  },
+  {
     name: "Contacto",
     activeClass: "",
     page: "others",
@@ -168,7 +174,7 @@ const menuContent = [
   },
 ];
 
-const MobileMenu = ({setCloseMenu}) => {
+const MobileMenu = ({ setCloseMenu }) => {
   let currentPage = "";
   const pathname = usePathname();
 
@@ -217,6 +223,14 @@ const MobileMenu = ({setCloseMenu}) => {
       vanguardiaSection.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const nosotros = (e) => {
+    e.preventDefault();
+    setCloseMenu();
+    const portfolioSection = document.getElementById("Nosotros");
+    if (portfolioSection) {
+      portfolioSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
 
   const scrollToContacto = (e) => {
@@ -239,7 +253,7 @@ const MobileMenu = ({setCloseMenu}) => {
                   className={item.routerPath == pathname ? "active-page" : ""}
                   key={i}
                 >
-                  <Link href={`#${item.name}-section`} onClick={item.name === "Solución" ? scrollToPortfolio : item.name === "Beneficios" ? scrollToBeneficios : item.name === "Vanguardia" ? scrollToVanguardia : item.name === "Inicio" ? inicioHome : item.name === "Contacto" ? scrollToContacto : null}>{item.name}</Link>
+                  <Link href={`#${item.name}-section`} onClick={item.name === "Solución" ? scrollToPortfolio : item.name === "Beneficios" ? scrollToBeneficios : item.name === "Vanguardia" ? scrollToVanguardia : item.name === "Inicio" ? inicioHome : item.name === "Contacto" ? scrollToContacto : item.name === "Nosotros" ? nosotros : null}>{item.name}</Link>
                 </MenuItem>
               ))}
             </Menu>
