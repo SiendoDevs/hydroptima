@@ -58,14 +58,12 @@ export default function ScrollToTop() {
             target="_blank">
             {/* <i className="socicon-whatsapp" style={{ marginTop: "13px" }}></i> */}
             <Image
-              width={10}
-              height={10}
-              style={{ width: '25px', height: '25px', filter: "hue-rotate(120deg)", marginTop: "10px"}} src="/assets/img/imgs-de-la-marca/MdiWhatsapp.svg" alt="icon" />
+              width={1200}
+              height={1200}
+              style={{ width: '25px', height: '25px', filter: "hue-rotate(120deg)", marginTop: "10px" }} src="/assets/img/imgs-de-la-marca/MdiWhatsapp.svg" alt="icon" />
           </a>
         </div>
       )}
-
-
     </>
   );
 }
