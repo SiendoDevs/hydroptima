@@ -2,7 +2,7 @@
 export const approachContent = [
   {
     id: 1,
-    subTitle: "UNO",
+    subTitle: "",
     title: "1",
     descriptions: `Nuestro sistema demuestra una eficacia superior, superando el 85% de efectividad. Esto significa que la acumulación de sarro se reduce de manera significativa, proporcionando agua de calidad en tu hogar y prolongando la vida útil de tus dispositivos y electrodomésticos.`,
     delayAnimation: "0",
@@ -10,35 +10,35 @@ export const approachContent = [
 
   {
     id: 2,
-    subTitle: "DOS",
+    subTitle: "",
     title: "2",
     descriptions: `Brindamos una solución que no requiere mantenimiento constante. Olvídate de añadir sal cada 30 días o de cambiar resinas anualmente, lo que te ahorra tiempo y dinero a largo plazo.`,
     delayAnimation: "100",
   },
   {
     id: 3,
-    subTitle: "TRES",
+    subTitle: "",
     title: "3",
     descriptions: `El diseño compacto del producto ocupa un espacio mínimo en tu hogar. Además, es altamente adaptable y puede instalarse tanto en el interior como en el exterior de tu vivienda, brindándote flexibilidad en su colocación de acuerdo a tus necesidades y preferencias.`,
     delayAnimation: "200",
   },
   {
     id: 4,
-    subTitle: "CUATRO",
+    subTitle: "",
     title: "4",
     descriptions: `No necesitas una conexión eléctrica para que el descalcificador funcione. Esto no solo ahorra energía, sino que también te brinda una solución eficiente sin aumentar tu consumo eléctrico.`,
     delayAnimation: "300",
   },
   {
     id: 5,
-    subTitle: "CINCO",
+    subTitle: "",
     title: "5",
     descriptions: `La tecnología utilizada no genera residuos que deban desaguarse en una rejilla. Esto significa que no tendrás que preocuparte por la eliminación de subproductos indeseables, lo que contribuye a un hogar más limpio y sostenible.`,
     delayAnimation: "400",
   },
   {
     id: 6,
-    subTitle: "SEIS",
+    subTitle: "",
     title: "6",
     descriptions: `Es completamente libre de sal y resina. Además, no altera la composición química del agua. Esto garantiza que el agua que utilizas en tu hogar sea segura y no contenga químicos dañinos, preservando su calidad y pureza.`,
     delayAnimation: "500",
