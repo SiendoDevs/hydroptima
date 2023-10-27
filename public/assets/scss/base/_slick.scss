@@ -183,7 +183,8 @@
   }
   @media (max-width: 991px) {
     .slick-dots {
-      bottom: -58px;
+      // bottom: -58px;
+      margin-bottom: 50px;
     }
   }
 }
