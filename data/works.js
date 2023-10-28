@@ -14,13 +14,13 @@ export const portfolioContent = [
     },
     {
       id:3 ,
-      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso2.png",
+      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso.jpg",
       categorie: "",
       // title: "De presión de agua",
     },
     {
       id:4 ,
-      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso3.png",
+      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso3.jpg",
       categorie: "",
       // title: "En superficies sanitarias",
     },
