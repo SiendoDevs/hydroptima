@@ -255,9 +255,9 @@ const HomeDefault = () => {
                 {/* <ImageGridTwo /> */}
                 {/* <div
                   className="ptf-spacer"
-                <Portfolio />
                   style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
                 ></div> */}
+                <Portfolio />
                 <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
               </div>
               <div
