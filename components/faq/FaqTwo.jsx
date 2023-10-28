@@ -96,7 +96,7 @@ const FaqTwo = () => {
           </div>
           <div
             className="ptf-spacer"
-            style={{ "--ptf-xxl": "5.625rem" }}
+            style={{ "--ptf-xxl": "3.625rem" }}
           ></div>
         </div>
       ))}
