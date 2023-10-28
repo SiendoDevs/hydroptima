@@ -17,6 +17,7 @@ import Faq from "@/app/(others-pages)/faq/page";
 import ImageGridTwo from "@/components/image-grid/ImageGridTwo";
 // import ImageGridFive from "@/components/image-grid/ImageGridFive"
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
+import ImageGridFour from "@/components/image-grid/ImageGridFour";
 import Image from "next/image";
 
 export const metadata = {
