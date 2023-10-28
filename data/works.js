@@ -20,7 +20,7 @@ export const portfolioContent = [
     },
     {
       id:4 ,
-      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso3.jpg",
+      img: "/assets/img/imgs-de-la-marca/hydroptima-vaso.jpg",
       categorie: "",
       // title: "En superficies sanitarias",
     },
