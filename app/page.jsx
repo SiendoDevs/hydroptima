@@ -252,8 +252,8 @@ const HomeDefault = () => {
             <section id="vanguardia">
               <Faq />
               <div className="container-xxl">
-                {/* <ImageGridTwo /> */}
                 <Portfolio />
+                {/* <ImageGridTwo /> */}
                 {/* <div
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
