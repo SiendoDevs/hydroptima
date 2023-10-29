@@ -17,6 +17,7 @@ import Faq from "@/app/(others-pages)/faq/page";
 import ImageGridTwo from "@/components/image-grid/ImageGridTwo";
 // import ImageGridFive from "@/components/image-grid/ImageGridFive"
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
+import Slider from "./Slider";
 import ImageGridFour from "@/components/image-grid/ImageGridFour";
 import Image from "next/image";
 
@@ -257,7 +258,12 @@ const HomeDefault = () => {
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
                 ></div> */}
-                <Portfolio />
+                {/* <Portfolio /> */}
+                <Slider />
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "2.5rem", "--ptf-md": " 2rem" }}
+                ></div>
                 <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
               </div>
               <div
