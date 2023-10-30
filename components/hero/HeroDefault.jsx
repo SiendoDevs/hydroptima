@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 const heroContent = {
   title: "Hydroptima",
-  subTitle1: "La solución al sarro",
+  subTitle1: "La Solución al Sarro",
   subTitle2: "",
   subTitleDescription1: "Descalcificador de agua",
   subTitleDescription2: "",
@@ -114,7 +114,7 @@ const HeroDefault = () => {
                 {/* <!--Button--> */}
                 <a
                   className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-                  href="https://api.whatsapp.com/send?phone=5491130669655"
+                  href="https://wa.me/5491130669655?text=¡Hola, quiero más info sobre Hydroptima!"
                   target="_blank"
                 >
                   Más Info

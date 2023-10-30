@@ -17,6 +17,8 @@ import Faq from "@/app/(others-pages)/faq/page";
 import ImageGridTwo from "@/components/image-grid/ImageGridTwo";
 // import ImageGridFive from "@/components/image-grid/ImageGridFive"
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
+import Slider from "./Slider";
+import ImageGridFour from "@/components/image-grid/ImageGridFour";
 import Image from "next/image";
 
 export const metadata = {
@@ -87,7 +89,7 @@ const HomeDefault = () => {
                         style={{ "--ptf-xxl": "2.5rem" }}
                       ></div>
                       <p className="fz-18">
-                        Nuestro innovador sistema utiliza un proceso eficiente y sin sal para combatir el agua dura.
+                        En Hydroptima utilizamos un proceso más eficiente y sin sal para combatir la dureza del agua.
                       </p>
                       <div
                         className="ptf-spacer"
@@ -101,7 +103,7 @@ const HomeDefault = () => {
                         {/* <!--Button--> */}
                         <a
                           className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-                          href="https://www.youtube.com/"
+                          href="https://youtu.be/msxkKI3QOiU?feature=shared"
                           target="_blank"
                         >
                           Ver video
@@ -251,10 +253,16 @@ const HomeDefault = () => {
             <section id="vanguardia">
               <Faq />
               <div className="container-xxl">
-                <ImageGridTwo />
-                <div
+                {/* <ImageGridTwo /> */}
+                {/* <div
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                ></div> */}
+                {/* <Portfolio /> */}
+                <Slider />
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "2.5rem", "--ptf-md": " 2rem" }}
                 ></div>
                 <div style={{ borderBottom: '2px solid var(--ptf-accent-1)', marginBottom: '20px' }}></div>
               </div>
@@ -274,6 +282,34 @@ const HomeDefault = () => {
                     <div className="ptf-spacer" style={{ '--ptf-xxl': '2.5rem' }}></div>
                     <p className="fz-24">Experimenta la versatilidad del descalcificador Hydroptima y disfruta de la excelencia, tanto en tu hogar como en proyectos de construcción y diseño. Nuestra innovadora tecnología, que no depende de sal o electricidad, preserva la integridad de las cañerías y electrodomésticos.Olvídate de las preocupaciones por el sarro y asegura agua pura y espacios radiantes. ¡La elección definitiva para el confort de todos tus proyectos!</p>
                     <div className="ptf-spacer" style={{ '--ptf-xxl': '10rem', '--ptf-md': '5rem' }}></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="Nosotros"
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                <div className="container-xxl">
+                  <div className="col-xl-10">
+                    {/* <!--Animated Block--> */}
+                    <div
+                      className="ptf-animated-block"
+                      data-aos="fade"
+                      data-aos-delay="0"
+                    >
+                      <div className="ptf-spacer" style={{ '--ptf-xxl': '5rem', '--ptf-md': '5rem' }}></div>
+                      <h2 className="large-heading">Nosotros</h2>
+                      {/* <!--Spacer--> */}
+                      <div
+                        className="ptf-spacer"
+                        style={{ "--ptf-xxl": "2.5rem" }}
+                      ></div>
+                      <p className="fz-24">
+                        Somos una empresa de origen francés que expandió su presencia a Argentina a fines de 2022. Desde entonces, hemos colaborado estrechamente con arquitectos y usuarios finales para potenciar la calidad de vida de nuestros clientes.<br /><br />En Hydroptima, comprendemos que el agua es un elemento vital y consideramos de suma importancia mejorar la calidad del agua en los hogares. Nuestro compromiso no solo se centra en la excelencia, sino también en la responsabilidad medioambiental. Estamos dedicados a brindar soluciones que no solo mejoren la calidad de vida, sino que también contribuyan a un mundo más sostenible y saludable.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>

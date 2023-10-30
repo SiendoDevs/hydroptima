@@ -12,11 +12,11 @@ export default function ScrollToTop() {
     if (typeof window !== 'undefined') {
       // Code that depends on the window object
       window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+        top: 0,
+        behavior: "smooth",
+      });
     }
-    
+
   };
 
   useEffect(() => {
@@ -29,13 +29,13 @@ export default function ScrollToTop() {
           setIsVisible(false);
         }
       };
-  
+
       window.addEventListener("scroll", toggleVisibility);
-  
+
       return () => window.removeEventListener("scroll", toggleVisibility);
-      
+
     }
-    
+
   }, []);
 
   return (
@@ -44,10 +44,24 @@ export default function ScrollToTop() {
         <div>
           <button className="scroll-top " onClick={scrollToTop}>
             <Image
-                      width={1200}
-                      height={1200}
-                      style={{width : '17px' , height: '17px',filter: "hue-rotate(120deg)",}} src="/assets/img/chevron-w.png" alt="icon" />
+              width={1200}
+              height={1200}
+              style={{ width: '17px', height: '17px', filter: "hue-rotate(120deg)", }} src="/assets/img/chevron-w.png" alt="icon" />
           </button>
+        </div>
+      )},
+      {isVisible && (
+        <div>
+          <a
+            href="https://wa.me/5491130669655?text=¡Hola, quiero más info sobre Hydroptima!"
+            className="scroll-top " style={{ bottom: '10px', left: '10px', marginBottom: "10px" }}
+            target="_blank">
+            {/* <i className="socicon-whatsapp" style={{ marginTop: "13px" }}></i> */}
+            <Image
+              width={1200}
+              height={1200}
+              style={{ width: '25px', height: '25px', filter: "hue-rotate(120deg)", marginTop: "10px" }} src="/assets/img/imgs-de-la-marca/MdiWhatsapp.svg" alt="icon" />
+          </a>
         </div>
       )}
     </>

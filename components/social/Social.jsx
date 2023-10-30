@@ -15,7 +15,7 @@ const SocialShare = [
   // },
   {
     iconName: "socicon-instagram",
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/hydroptima",
     iconClass: "instagram",
   },
   // {
