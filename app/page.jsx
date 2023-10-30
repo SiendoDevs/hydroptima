@@ -3,22 +3,17 @@ import Link from "next/link";
 // import Award from "../../../components/award/Award";
 
 import Blog from "../components/blog/Blog";
-import Brand from "../components/brand/Brand";
 import Counter from "../components/counter/Counter";
 import CopyRight from "../components/footer/copyright/CopyRight";
 import Footer from "../components/footer/Footer";
 import HeaderHomeDefault from "../components/header/HeaderHomeDefault";
 import HeroDefault from "../components/hero/HeroDefault";
-import Portfolio from "../components/portfolio/Portfolio";
 import Approach from "../components/service/Approach";
 import ServiceOne from "../components/service/ServiceOne";
 import Testimonial from "../components/testimonial/Testimonial";
 import Faq from "@/app/(others-pages)/faq/page";
-import ImageGridTwo from "@/components/image-grid/ImageGridTwo";
-// import ImageGridFive from "@/components/image-grid/ImageGridFive"
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import Slider from "./Slider";
-import ImageGridFour from "@/components/image-grid/ImageGridFour";
 import Image from "next/image";
 
 export const metadata = {
