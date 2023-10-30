@@ -11,7 +11,7 @@ import HeroDefault from "../components/hero/HeroDefault";
 import Approach from "../components/service/Approach";
 import ServiceOne from "../components/service/ServiceOne";
 import Testimonial from "../components/testimonial/Testimonial";
-import Faq from "@/app/(others-pages)/faq/page";
+import FaqTwo from "../components/faq/FaqTwo";
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import Slider from "./Slider";
 import Image from "next/image";
@@ -246,14 +246,52 @@ const HomeDefault = () => {
                 Start Brand and Counterup Section
               ============================================== */}
             <section id="vanguardia">
-              <Faq />
-              <div className="container-xxl">
-                {/* <ImageGridTwo /> */}
-                {/* <div
+              <div id="vanguardia">
+                {/* <HeaderDefault /> */}
+                {/* End Header */}
+                <div
                   className="ptf-spacer"
-                  style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
-                ></div> */}
-                {/* <Portfolio /> */}
+                  style={{ "--ptf-xxl": "3rem", "--ptf-md": "5rem" }}
+                ></div>
+                <div className="ptf-main">
+                  <div className="ptf-page ptf-page--faq">
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                    ></div>
+                    <div className="container-xxl">
+                      <div className="row">
+                        <div className="col-xl-10">
+                          {/* <!--Animated Block--> */}
+                          <div
+                            className="ptf-animated-block"
+                            data-aos="fade"
+                            data-aos-delay="0"
+                          >
+                            <h2 className="large-heading">Vanguardia</h2>
+                            {/* <!--Spacer--> */}
+                            <div
+                              className="ptf-spacer"
+                              style={{ "--ptf-xxl": "2.5rem" }}
+                            ></div>
+                            <p className="fz-18">
+                              Nuestra tecnología avanzada elimina el sarro sin sal, electricidad ni mantenimiento constante, protegiendo tus cañerías y electrodomésticos.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <!--Spacer--> */}
+                    <div
+                      className="ptf-spacer"
+                      style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                    ></div>
+                    <FaqTwo />
+                  </div>
+                </div>
+              </div>
+              <div className="container-xxl">
                 <Slider />
                 <div
                   className="ptf-spacer"

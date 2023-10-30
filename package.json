@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.11",
@@ -16,6 +17,7 @@
     "i": "^0.3.7",
     "jarallax": "^1.12.8",
     "next": "^13.5.4",
+    "next-sitemap": "^4.2.3",
     "photoswipe": "^5.3.7",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
