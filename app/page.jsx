@@ -13,6 +13,7 @@ import ServiceOne from "../components/service/ServiceOne";
 import Testimonial from "../components/testimonial/Testimonial";
 import FaqTwo from "../components/faq/FaqTwo";
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
+import { Analytics } from '@vercel/analytics/react';
 import Slider from "./Slider";
 import Image from "next/image";
 
@@ -494,6 +495,7 @@ const HomeDefault = () => {
           </div>
         </footer>
       </div>
+      <Analytics />
     </div>
   );
 };
