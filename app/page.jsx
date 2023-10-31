@@ -16,6 +16,7 @@ import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import { Analytics } from '@vercel/analytics/react';
 import Slider from "./Slider";
 import Image from "next/image";
+import "../components/jarallax/ContactJarallax.css"
 
 export const metadata = {
   title: "Hydroptima - La solución al sarro",
@@ -307,7 +308,7 @@ const HomeDefault = () => {
               <div className="container-xxl">
                 <div className="row">
                   <div className="col-lg-6 order-lg-1">
-                    <img src="/assets/img/imgs-de-la-marca/hydroptima-tubo1.jpg" alt="" />
+                    <img src="/assets/img/imgs-de-la-marca/hydroptima-tubo1.jpg" alt="tubo-hydroptima" />
                   </div>
                   <div className="col-lg-6 order-lg-2">
                     <div className="ptf-faq__category">
@@ -318,11 +319,20 @@ const HomeDefault = () => {
                     <div className="ptf-spacer" style={{ '--ptf-xxl': '10rem', '--ptf-md': '5rem' }}></div>
                   </div>
                 </div>
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
+                ></div>
+              </div>
+              <div className="background-container-video">
+                <video autoPlay muted loop>
+                  <source src="assets/img/imgs-de-la-marca/hydroptima.mp4" type="video/mp4" />
+                </video>
               </div>
               <div
                 id="Nosotros"
                 className="ptf-spacer"
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
               ></div>
               <div className="container-xxl">
                 <div className="container-xxl">
@@ -333,7 +343,7 @@ const HomeDefault = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <div className="ptf-spacer" style={{ '--ptf-xxl': '5rem', '--ptf-md': '5rem' }}></div>
+                      <div className="ptf-spacer" style={{ '--ptf-xxl': '3rem', '--ptf-md': '3rem' }}></div>
                       <h2 className="large-heading">Nosotros</h2>
                       {/* <!--Spacer--> */}
                       <div

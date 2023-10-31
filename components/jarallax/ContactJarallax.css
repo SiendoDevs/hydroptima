@@ -7,7 +7,16 @@
      height: 550px;
  }
 
- .texto{
-    justify-content: center center;
-    object-position: center center;
+ .texto {
+     justify-content: center center;
+     object-position: center center;
+ }
+
+ .background-container-video video {
+     top: 0;
+     left: 0;
+     width: 100%;
+     object-fit: cover;
+     object-position: center;
+     z-index: -1;
  }
