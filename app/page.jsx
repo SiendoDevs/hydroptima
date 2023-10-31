@@ -312,11 +312,10 @@ const HomeDefault = () => {
                   </div>
                   <div className="col-lg-6 order-lg-2">
                     <div className="ptf-faq__category">
-                      <h2 style={{ paddingTop: "35px"}}>Eficacia Pura</h2>
+                      <h2 style={{ paddingTop: "35px" }}>Eficacia Pura</h2>
                     </div>
                     <div className="ptf-spacer" style={{ '--ptf-xxl': '2.5rem' }}></div>
                     <p className="fz-20">Experimenta la versatilidad del descalcificador Hydroptima y disfruta de la excelencia, tanto en tu hogar como en proyectos de construcción y diseño. Nuestra innovadora tecnología, que no depende de sal o electricidad, preserva la integridad de las cañerías y electrodomésticos.Olvídate de las preocupaciones por el sarro y asegura agua pura y espacios radiantes. ¡La elección definitiva para el confort de todos tus proyectos!</p>
-                    <div className="ptf-spacer" style={{ '--ptf-xxl': '10rem', '--ptf-md': '5rem' }}></div>
                   </div>
                 </div>
                 <div
