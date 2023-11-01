@@ -15,6 +15,7 @@ import FaqTwo from "../components/faq/FaqTwo";
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import { Analytics } from '@vercel/analytics/react';
 import Slider from "./Slider";
+import SliderVideo from "./SliderVideo"
 import Image from "next/image";
 import "../components/jarallax/ContactJarallax.css"
 
@@ -100,7 +101,7 @@ const HomeDefault = () => {
                         {/* <!--Button--> */}
                         <a
                           className="ptf-btn ptf-btn--primary ptf-btn--inversed"
-                          href="https://youtu.be/msxkKI3QOiU?feature=shared"
+                          href="https://youtu.be/stClf4BYtT8?feature=shared"
                           target="_blank"
                         >
                           Ver video
@@ -322,12 +323,13 @@ const HomeDefault = () => {
                   className="ptf-spacer"
                   style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
                 ></div>
+                <SliderVideo />
               </div>
-              <div className="background-container-video">
+              {/* <div className="background-container-video">
                 <video autoPlay muted loop>
                   <source src="assets/img/imgs-de-la-marca/hydroptima.mp4" type="video/mp4" />
                 </video>
-              </div>
+              </div> */}
               <div
                 id="Nosotros"
                 className="ptf-spacer"
