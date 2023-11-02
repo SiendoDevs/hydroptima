@@ -4,17 +4,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import HeaderDefault from "../components/header/HeaderDefault";
+import HeaderHomeDefault from "@/components/header/HeaderHomeDefault";
 import CopyRight from "../components/footer/copyright/CopyRight";
 import Footer from "../components/footer/Footer";
 
 export const metadata = {
-  title: "Not Found || Moonex Portfolio and Agency NextJS Template",
+  title: "No encontrado",
 };
 
 const NotFound = () => {
   return (
-    <>
-      <HeaderDefault />
+    <div className="ptf-site-wrapper animsition  ptf-is--home-default2">
+      <HeaderHomeDefault />
       {/* End Header */}
 
       <div className="ptf-main">
@@ -59,9 +60,8 @@ const NotFound = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">
-                      Opps...! <br />
-                      Page not found
+                    <h1 className="large-heading" style={{ color: "hsl(225, 74%, 15%)" }}>
+                      ¡Lo sentimos!
                     </h1>
                   </div>
                   {/* <!--Spacer--> */}
@@ -75,7 +75,7 @@ const NotFound = () => {
                     data-aos="fade"
                     data-aos-delay="100"
                   >
-                    <p>You seem can’t to find the page you’re looking for.</p>
+                    <p>La página que estás buscando no se encuentra en nuestro sitio web.  Verifica la dirección URL para asegurarte de que esté escrita correctamente.</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
@@ -88,7 +88,7 @@ const NotFound = () => {
                     data-aos="fade"
                     data-aos-delay="200"
                   >
-                    <Link href="/">Back to Home</Link>
+                    <Link href="/">Volver al Inicio</Link>
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const NotFound = () => {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 
