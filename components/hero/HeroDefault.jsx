@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import style from "./HeroDefault.module.css"
 const heroContent = {
   title: "Hydroptima",
   subTitle1: "La Solución al Sarro",
@@ -17,7 +18,11 @@ const HeroDefault = () => {
       <div className="col-xl-9">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
-          <h1 className="fz-120 fz-110--lg fz-60--md">{heroContent.title}</h1>
+          {/* <h1 className="fz-120 fz-110--lg fz-60--md">{heroContent.title}</h1> */}
+          <img src="/assets/img/imgs-de-la-marca/logo-hydroptima-white.svg" alt="hydroptima"
+          width="690"   /* Ancho deseado */
+          height="690"
+          className={style.imagen} />
         </div>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>

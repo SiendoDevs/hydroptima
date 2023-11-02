@@ -68,6 +68,7 @@
 
 		.ptf-counter-up__value {
 			color: var(--ptf-value-color);
+			font-family: var(--ptf-secondary-font);
 			font-size: px2rem(60px);
 		}
 
