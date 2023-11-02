@@ -352,7 +352,7 @@ const HomeDefault = () => {
                         style={{ "--ptf-xxl": "2.5rem" }}
                       ></div>
                       <p className="fz-20">
-                        Somos una empresa de origen francés que expandió su presencia a Argentina a fines de 2022. Desde entonces, hemos colaborado estrechamente con arquitectos y usuarios finales para potenciar la calidad de vida de nuestros clientes.<br /><br />En Hydroptima, comprendemos que el agua es un elemento vital y consideramos de suma importancia mejorar la calidad del agua en los hogares. Nuestro compromiso no solo se centra en la excelencia, sino también en la responsabilidad medioambiental. Estamos dedicados a brindar soluciones que no solo mejoren la calidad de vida, sino que también contribuyan a un mundo más sostenible y saludable.
+                        Somos una empresa de origen francés que expandió su presencia a Argentina a fines de 2022. Desde entonces, hemos colaborado estrechamente con arquitectos y usuarios finales para potenciar la calidad de vida de nuestros clientes.<br /><br />En Hydroptima, comprendemos que el agua es un elemento vital y consideramos de suma importancia mejorar la calidad del agua en los hogares. Nuestro compromiso no solo se centra en la excelencia, sino también en la responsabilidad medioambiental. Estamos dedicados a brindar soluciones.
                       </p>
                     </div>
                   </div>

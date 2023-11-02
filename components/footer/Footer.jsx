@@ -107,7 +107,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="fz-24 --ptf-accent-1">Corona Golf Club, Pilar 1629, Buenos Aires</p>
+          {/* <p className="fz-24 --ptf-accent-1">Corona Golf Club, Pilar 1629, Buenos Aires</p> */}
           <a className="fz-40 --ptf-accent-1 has-accent-1" href="mailto:info@tuhydroptima.com">
             info@tuhydroptima.com
           </a>
