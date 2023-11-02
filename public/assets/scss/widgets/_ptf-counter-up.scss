@@ -70,7 +70,13 @@
 			color: var(--ptf-value-color);
 			font-family: var(--ptf-secondary-font);
 			font-size: px2rem(60px);
+
+			@media (max-width: 768px) {
+				font-size: px2rem(40px);
+				/* Tamaño de fuente más pequeño en pantallas pequeñas */
+			}
 		}
+
 
 		.ptf-counter-up__title {
 			font-size: px2rem(16px);
