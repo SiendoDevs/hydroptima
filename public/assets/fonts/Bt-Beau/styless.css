@@ -1,6 +1,27 @@
+/* @font-face {
+    font-family: "BT Beau Sans";
+    src: url('BT-BeauSans-Medium-BF64d4595383d81.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: "BT Beau Sans";
+    src: url('BT-BeauSans-Regular-BF64d45952e54c1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @font-face {
     font-family: "BT Beau Sans";
     src: url('BT-BeauSans-Bold-BF64d45953acd04.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BT Beau Sans";
+    src: url('BT-BeauSans-ExtraBold-BF64d45953a17ee.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
 }
