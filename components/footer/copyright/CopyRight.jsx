@@ -3,7 +3,7 @@
 import React from "react";
 import SocialTwo from "../../social/SocialTwo";
 import Image from "next/image";
-const logo = "/assets/img/imgs-de-la-marca/logo-hydroptima-dark (1).svg";
+const logo = "/assets/img/imgs-de-la-marca/logo-dark-hydroptima.svg";
 
 const CopyRight = () => {
   const inicioHome = () => {
