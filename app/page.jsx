@@ -316,7 +316,9 @@ const HomeDefault = () => {
                       <h2 style={{ paddingTop: "35px" }}>Eficacia Pura</h2>
                     </div>
                     <div className="ptf-spacer" style={{ '--ptf-xxl': '2.5rem' }}></div>
-                    <p className="fz-20">Experimenta la versatilidad del descalcificador Hydroptima y disfruta de la excelencia, tanto en tu hogar como en proyectos de construcción y diseño. Nuestra innovadora tecnología, que no depende de sal o electricidad, preserva la integridad de las cañerías y electrodomésticos.Olvídate de las preocupaciones por el sarro y asegura agua pura y espacios radiantes. ¡La elección definitiva para el confort de todos tus proyectos!</p>
+                    <p className="fz-20">Experimenta la versatilidad del descalcificador Hydroptima y disfruta de la excelencia, tanto en tu hogar como en proyectos de construcción y diseño. Nuestra innovadora tecnología, que no depende de sal o electricidad, preserva la integridad de las cañerías y electrodomésticos.
+                    <br />
+                      Olvídate de las preocupaciones por el sarro y asegura agua pura y espacios radiantes. ¡La elección definitiva para el confort de todos tus proyectos!</p>
                   </div>
                 </div>
                 <div
@@ -501,15 +503,15 @@ const HomeDefault = () => {
               </div>
               <p className="fz-20" style={{ color: "white" }}></p>
               <div className="fz-80 --ptf-color-white" style={{ color: "white" }}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              style={{ height: "1em" }}
-              viewBox="0 0 17 17"
-            >
-              <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
-            </svg>
-          </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  style={{ height: "1em" }}
+                  viewBox="0 0 17 17"
+                >
+                  <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
+                </svg>
+              </div>
             </div>
           </div>
         </div>
