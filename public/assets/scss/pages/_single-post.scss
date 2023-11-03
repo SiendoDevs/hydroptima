@@ -27,7 +27,7 @@
       font-weight: 700;
     }
 
-    span + span {
+    span+span {
       &::before {
         content: "/";
 
@@ -51,15 +51,12 @@
       padding-top: px2rem(45px);
       padding-bottom: px2rem(80px);
     }
+
     @include mq("xlarge", min) {
       .alignwide {
         width: auto;
-        margin-right: calc(
-          calc(-25% - calc(var(--bs-gutter-x) / 2)) - calc(0.75rem / 2)
-        );
-        margin-left: calc(
-          calc(-25% - calc(var(--bs-gutter-x) / 2)) - calc(0.75rem / 2)
-        );
+        margin-right: calc(calc(-25% - calc(var(--bs-gutter-x) / 2)) - calc(0.75rem / 2));
+        margin-left: calc(calc(-25% - calc(var(--bs-gutter-x) / 2)) - calc(0.75rem / 2));
       }
     }
   }
@@ -117,7 +114,7 @@
       }
     }
 
-    a + a {
+    a+a {
       margin-left: px2rem(50px);
 
       @include mq("medium") {
@@ -138,6 +135,7 @@
       margin-top: px2rem(45px);
       padding-bottom: px2rem(45px);
     }
+
     @include mq("large") {
       flex-direction: column;
     }
@@ -176,10 +174,11 @@
     font-size: 0.875rem;
   }
 }
+
 .min-vh-100.jarallax,
 .jarallax.jarallax-img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: absolute;
 }
