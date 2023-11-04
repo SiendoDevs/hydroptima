@@ -10,13 +10,13 @@ const ContactJarallax = () => {
       <div className="d-inline-flex text-start align-items-center justify-content-center h-100">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0" style={{ margin: "0px 20px 0px 20px" }}>
-          <div className="fz-36 fw-bold" style={{ color: "white" }}>Agua más limpia</div>
+          <div className="fz-36 fw-bold" style={{ color: "white" }}>Agua mas limpia</div>
           {/* <!--Spacer--> */}
           <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
           <div className="fz-120 fz-90--md --ptf-color-white fw-bold lh-1p1 ptf-filled-link" style={{ color: "white" }}>
-            0% Sarro
+          Pedí Tu Hydroptima
           </div>
-          <p className="fz-20" style={{ color: "white" }}>Ahora tu caldera, y tus artefactos de cocina y baño van a durar muchísimo más</p>
+          <p className="fz-20" style={{ color: "white" }}>+56 9 6399 9750</p>
           {/* <div className="fz-80 --ptf-color-white" style={{ color: "white" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
