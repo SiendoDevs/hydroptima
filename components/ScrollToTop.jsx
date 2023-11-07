@@ -42,7 +42,7 @@ export default function ScrollToTop() {
     <>
       {isVisible && (
         <div>
-          <button className="scroll-top " onClick={scrollToTop}>
+          <button className="scroll-top " style={{ bottom: '10px', left: '10px', marginBottom: "10px" }} onClick={scrollToTop}>
             <Image
               width={1200}
               height={1200}
@@ -54,7 +54,7 @@ export default function ScrollToTop() {
         <div>
           <a
             href="https://wa.me/5491130669655?text=¡Hola, quiero más info sobre Hydroptima!"
-            className="scroll-top " style={{ bottom: '10px', left: '10px', marginBottom: "10px" }}
+            className="scroll-topp"
             target="_blank">
             {/* <i className="socicon-whatsapp" style={{ marginTop: "13px" }}></i> */}
             <Image

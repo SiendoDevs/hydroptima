@@ -3,7 +3,7 @@
 import React from "react";
 import SocialTwo from "../../social/SocialTwo";
 import Image from "next/image";
-const logo = "/assets/img/imgs-de-la-marca/logo-dark-hydroptima.svg";
+const logo = "/assets/img/imgs-de-la-marca/logo-hydroptima-dark.png";
 
 const CopyRight = () => {
   const inicioHome = () => {
@@ -19,7 +19,7 @@ const CopyRight = () => {
           <Image
             width={1200}
             height={1200}
-            style={{ width: "141px", height: "46px" }}
+            style={{ width: "139px", height: "24px" }}
             src={logo}
             alt="logo"
             loading="lazy"
@@ -32,7 +32,7 @@ const CopyRight = () => {
           <span>
             <a
               class="has-accent-1"
-              onClick={ inicioHome }
+              onClick={inicioHome}
               rel="noopener noreferrer"
               target="_self"
             >
