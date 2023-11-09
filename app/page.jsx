@@ -495,11 +495,11 @@ const HomeDefault = () => {
           <div className="d-inline-flex text-start align-items-center justify-content-center h-100">
             {/* <!--Animated Block--> */}
             <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0" style={{ margin: "0px 20px 0px 20px" }}>
-              <div className="fz-36 fw-bold" style={{ color: "white" }}>Pedilo Hoy Mismo</div>
+              <div className="fz-36 fw-bold fz-36--sm" style={{ color: "white" }}>¡Pedí tu Hydroptima Hoy!</div>
               {/* <!--Spacer--> */}
               <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
               <div className="fz-80 fz-60--md --ptf-color-white fw-bold lh-1p1 ptf-filled-link" style={{ color: "white" }}>
-                +56 9 6399 9750
+                11 3066 9655
               </div>
               <p className="fz-20" style={{ color: "white" }}></p>
               <div className="fz-80 --ptf-color-white" style={{ color: "white" }}>
