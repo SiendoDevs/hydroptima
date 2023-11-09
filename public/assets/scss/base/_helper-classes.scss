@@ -177,7 +177,7 @@
 
   &--sm {
     @include mq("small") {
-      font-size: px2rem(36px);
+      font-size: px2rem(30px);
     }
   }
 }
