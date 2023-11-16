@@ -8,7 +8,7 @@ $base_font_size: 16px;
   @include defineColorHSL("--ptf-accent-2", 226, 60%, 10%);
   @include defineColorHSL("--ptf-accent-3", 80, 100%, 30%); // #669900
   @include defineColorHSL("--ptf-accent-4", 204, 100%, 50%); // #0099ff
-  @include defineColorHSL("--ptf-accent-5", 162.92, 55%, 49%); //38c19a
+  @include defineColorHSL("--ptf-accent-5", 163, 71%, 76%); //38c19a
 
   // Global colors
   @include defineColorHSL("--ptf-color-white", 0, 0%, 100%); // #fff;
