@@ -3,7 +3,7 @@
 import React from "react";
 import SocialTwo from "../../social/SocialTwo";
 import Image from "next/image";
-const logo = "/assets/img/imgs-de-la-marca/logo-hydroptima-dark.png";
+const logo = "/assets/img/imgs-de-la-marca/logo-hydroptima-white.svg";
 
 const CopyRight = () => {
   const inicioHome = () => {
@@ -27,7 +27,7 @@ const CopyRight = () => {
         </a>
       </div>
       <div className="col-12 col-md text-md-center text-lg-center">
-        <p className="ptf-footer-copyright --ptf-accent-1">
+        <p className="ptf-footer-copyright --ptf-accent-1" style={{color:"white"}}>
           ©{new Date().getFullYear()}{" "}
           <span>
             <a

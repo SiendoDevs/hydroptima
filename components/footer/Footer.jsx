@@ -90,13 +90,13 @@ const Footer = () => {
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
           <div
-            className="ptf-footer-heading --ptf-accent-1"
-            style={{ maxWidth: "37.5rem" }}
+            className="ptf-footer-heading --ptf-color-white"
+            style={{ maxWidth: "37.5rem", color:"white" }}
           >
             Protege tus Cañerías y Electrodomésticos
           </div>
 
-          <div className="ptf-footer-heading --ptf-accent-1">
+          <div className="ptf-footer-heading --ptf-accent-1" style={{color:"white"}}>
             ¡Contactate con{" "}
             <Link
               className="has-accent-1 text-decoration-underline"
@@ -108,7 +108,7 @@ const Footer = () => {
           </div>
 
           {/* <p className="fz-24 --ptf-accent-1">Corona Golf Club, Pilar 1629, Buenos Aires</p> */}
-          <a className="fz-30 --ptf-accent-1 has-accent-1" href="mailto:info@tuhydroptima.com">
+          <a className="fz-30 --ptf-accent-1 has-accent-1" href="mailto:info@tuhydroptima.com" style={{color:"white"}}>
             info@tuhydroptima.com
           </a>
         </div>
@@ -139,8 +139,8 @@ const Footer = () => {
           data-aos="fade"
           data-aos-delay="200"
         >
-          <div className="ptf-widget ptf-widget-text">
-            <h4 className="ptf-widget-title">Enlaces Rápidos</h4>
+          <div className="ptf-widget ptf-widget-text" style={{color:"white"}}>
+            <h4 className="ptf-widget-title" style={{color:"white"}}>Enlaces Rápidos</h4>
             <div className="ptf-widget ptf-widget-links --ptf-accent-1">
               <ul>
                 {Product.map((val, i) => (

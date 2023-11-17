@@ -9,7 +9,7 @@
 -------------------------------------------- */
 
 .ptf-footer--style-1 {
-  background-color: var(--ptf-color-9);
+  background-color: var(--ptf-accent-1);
   background-image: url(../../img/root/footer-bubble.png);
   background-repeat: no-repeat;
   background-position: calc(50% - 190px) 100%;
@@ -65,7 +65,7 @@
     padding-top: px2rem(65px);
     padding-bottom: px2rem(45px);
 
-    border-top: 2px solid var(--ptf-accent-1);
+    border-top: 2px solid var(--ptf-color-white);
 
     @include mq("medium") {
       padding-bottom: px2rem(30px);

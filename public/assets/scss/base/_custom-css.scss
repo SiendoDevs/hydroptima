@@ -496,6 +496,7 @@
   transition: all 0.3s ease-in-out;
   border: none;
   outline: none;
+  box-shadow: 0 0 0 1px white; /* Agregar el borde blanco */
 
   &::after {
     position: absolute;
@@ -511,6 +512,7 @@
         transparent 80%);
   }
 }
+
 
 .scroll-topp {
   width: 45px;
