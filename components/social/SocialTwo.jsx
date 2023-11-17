@@ -36,7 +36,7 @@ const SocialTwo = () => {
           href={val.link}
           key={i}
         >
-          <i className={val.iconName}></i>
+          <i className={val.iconName} style={{color:"white"}}></i>
         </a>
       ))}
     </>
