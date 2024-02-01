@@ -244,6 +244,76 @@ const HomeDefault = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
             </section>
+            <section
+              id="beneficios"
+              className="has-accent-1-background"
+              style={{
+                backgroundImage: `url(${"" + "/assets/img/root/service-bubble.png"
+                  })`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "100% calc(100% + 120px)",
+              }}
+            >
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "1rem", "--ptf-md": "4rem" }}
+                  ></div>
+                  <h2 className="h1 large-heading">Purificador de agua</h2>
+                  <h2 className="h1 large-heading">de alto nivel para tu casa</h2>
+                </div>
+                <br />
+                <div
+                  className="ptf-approach-box"
+                  style={{
+                    "--ptf-title-color": "var(--ptf-color-white)",
+                  }}
+                ></div>
+                <div className="fz-36 fw-bold" style={{ color: "white" }}>Tomá el agua de tu canilla sin miedo</div>
+                <br />
+                <div className="container-xxl">
+                  <div className="row">
+                    <div className="col-lg-6 order-lg-1">
+                      <img height={300} width={300} src="/assets/img/imgs-de-la-marca/hydroptima-tubo1.jpg" alt="tubo-hydroptima" />
+                    </div>
+                    <div className="col-lg-6 order-lg-2">
+                      <div className="ptf-faq__category">
+                        <h2 style={{ paddingTop: "35px" }}>Eficacia Pura</h2>
+                      </div>
+                      <div className="ptf-spacer" style={{ '--ptf-xxl': '2.5rem' }}></div>
+                      <p className="fz-20" style={{ color: "white" }}>Filtra con eficiencia incomparable todos los contaminantes como:</p>
+                      <p className="fz-20" style={{ color: "white" }}>Arsénico</p> <p className="fz-20" style={{ color: "white" }}>Pesticidas</p> <p className="fz-20" style={{ color: "white" }}>Plomo</p> <p className="fz-20" style={{ color: "white" }}>Cloro</p>
+                    </div>
+                  </div>
+                  <div
+                    className="ptf-spacer"
+                    style={{ "--ptf-xxl": "5rem", "--ptf-md": "5rem" }}
+                  ></div>
+                </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": " 3.75rem" }}
+                ></div>
+                {/* <Approach /> */}
+              </div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+            </section>
 
             {/*=============================================
                 Start Brand and Counterup Section
