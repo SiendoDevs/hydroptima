@@ -8,6 +8,7 @@ import CopyRight from "../components/footer/copyright/CopyRight";
 import Footer from "../components/footer/Footer";
 import HeaderHomeDefault from "../components/header/HeaderHomeDefault";
 import HeroDefault from "../components/hero/HeroDefault";
+import HeroTwo from "@/components/hero/HeroTwo";
 import Approach from "../components/service/Approach";
 import ServiceOne from "../components/service/ServiceOne";
 import Testimonial from "../components/testimonial/Testimonial";
@@ -18,6 +19,7 @@ import Slider from "./Slider";
 import SliderVideo from "./SliderVideo"
 import Image from "next/image";
 import "../components/jarallax/ContactJarallax.css"
+import "./HeroTwo.css"
 
 export const metadata = {
   title: "Hydroptima - La solución al sarro",
@@ -52,9 +54,8 @@ const HomeDefault = () => {
               <div
                 className="ptf-spacer"
                 style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
-              ></div>ver
+              ></div>
             </section>
-
             {/*=============================================
                 Start Service Section
               ============================================== */}
@@ -244,7 +245,6 @@ const HomeDefault = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
             </section>
-
             {/*=============================================
                 Start Brand and Counterup Section
               ============================================== */}
@@ -373,7 +373,24 @@ const HomeDefault = () => {
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
             </section>
-
+            {/*=============================================
+                Start Hero Section two
+              ============================================== */}
+            <section className="has-accent-1-background heroTwo">
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "15rem" }}
+              ></div>
+              <div className="container-xxl">
+                <HeroTwo />
+              </div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem" }}
+              ></div>
+            </section>
             {/*=============================================
                 Start Jaralax Testimonial Section
               ============================================== */}
