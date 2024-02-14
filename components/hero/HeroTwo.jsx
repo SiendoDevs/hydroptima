@@ -11,7 +11,6 @@ const heroContent = {
   detailsDescription: `Filtra con eficiencia incomparable todos los contaminantes como: Arsénico, Pesticidas, Plomo, Cloro`,
   detailsDescription2: `Elimina todos los microorganismos patógenos.`,
   detailsDescription3: `El filtro se instala directamente debajo de la mesada de la cocina.`,
-  detailsDescription4: `Fabricado en Estados Unidos.`,
 };
 
 const HeroTwo = () => {
@@ -89,11 +88,11 @@ const HeroTwo = () => {
                   {heroContent.subTitleDescription1} <br />
                   {heroContent.subTitleDescription2}
                 </p>
-                <p className="fz-24 has-white-color">
+                <p className="fz-20 has-white-color">
                   {heroContent.detailsDescription}<br /><br />
                   {heroContent.detailsDescription2}<br /><br />
                   {heroContent.detailsDescription3}<br /><br />
-                  {heroContent.detailsDescription4}
+                  Fabricado en <strong>Estados Unidos</strong>
                 </p>
               </div>
               {/* <!--Spacer--> */}
